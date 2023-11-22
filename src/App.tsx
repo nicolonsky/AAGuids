@@ -6,23 +6,35 @@ import { UUID } from 'crypto';
 function App() {
 
   type AAGuidInfo = {
-    Name: string,
-    AAGuid: UUID
+    description: string,
+    aaguid: UUID
+    authenticatorVersion: number
+    protocolFamily: string,
+    authenticationAlgorithms: string[],
+    keyProtection: string[],
+    attachmentHint: string[]
   }
 
   const [data, setData] = useState<AAGuidInfo[]>([]);
 
   useEffect(() => {
-    fetch('combined_aaguid.json')
+    fetch('/mdsblob.json')
       .then(response => response.json())
-      .then(data => data.map((entry: AAGuidInfo) => ({ id: entry.AAGuid, name: entry.Name })))
-      .then(setData)
+      .then(data => data
+        .filter((entry: AAGuidInfo) => entry.protocolFamily === 'fido2')
+        .map((entry: AAGuidInfo) => ({ ...entry, id: entry.aaguid }))
+        
+      )
+      .then((filteredData: AAGuidInfo[]) => setData(filteredData))
       .catch(console.error);
   }, [])
 
   const columns = [
-    { field: 'name', headerName: 'Name', flex: 1 },
-    { field: 'id', headerName: 'AAGUID', flex: 1 }
+    { field: 'description', headerName: 'Name', flex: 1 },
+    { field: 'aaguid', headerName: 'AAGUID', flex: 1 },
+    { field: 'authenticationAlgorithms', headerName: 'Authn Algorithms', flex: 1 },
+    { field: 'keyProtection', headerName: 'Key Protection', flex: 1 },
+    { field: 'attachmentHint', headerName: 'Attachment Hint', flex: 1 },
   ];
 
   return (
@@ -32,6 +44,7 @@ function App() {
       direction="column"
       alignItems="center"
       justifyContent="center"
+      width='100%'
     >
       <Typography variant="h1" component="h2">
         AAGUIDs
@@ -40,17 +53,17 @@ function App() {
         AAGUIDs are the unique identifiers for passkey authenticators. They are used to identify the authenticator when using the WebAuthn API.
       </Typography>
       <Typography>
-        This list is based on the <Link href="https://github.com/passkeydeveloper/passkey-authenticator-aaguids/blob/main/combined_aaguid.json">FIDO Alliance Metadata Service</Link> and is updated regularly.
+        This list is based on the <Link href="https://fidoalliance.org/metadata/">FIDO Alliance Metadata Service</Link> and is updated regularly.
       </Typography>
 
-      <Grid item>
+      <Grid item xl style={{ width: '75%' }}>
         <DataGrid
-          loading={data.length === 0}
           rows={data}
           columns={columns}
+          getRowHeight={() => 'auto'}
           initialState={{
             sorting: {
-              sortModel: [{ field: 'name', sort: 'asc' }],
+              sortModel: [{ field: 'description', sort: 'asc' }],
             },
           }}
           slots={{ toolbar: GridToolbar }}
