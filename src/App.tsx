@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { DataGrid, GridToolbar } from '@mui/x-data-grid';
 import { Grid, Link, Typography } from '@mui/material';
 import { UUID } from 'crypto';
@@ -11,11 +11,14 @@ function App() {
   }
 
   const [data, setData] = useState<AAGuidInfo[]>([]);
-  fetch('combined_aaguid.json')
-    .then(response => response.json())
-    .then(data => data.map((entry:AAGuidInfo) => ({ id: entry.AAGuid, name: entry.Name })))
-    .then(setData)
-    .catch(console.error);
+
+  useEffect(() => {
+    fetch('combined_aaguid.json')
+      .then(response => response.json())
+      .then(data => data.map((entry: AAGuidInfo) => ({ id: entry.AAGuid, name: entry.Name })))
+      .then(setData)
+      .catch(console.error);
+  }, [])
 
   const columns = [
     { field: 'name', headerName: 'Name', flex: 1 },
@@ -42,6 +45,7 @@ function App() {
 
       <Grid item>
         <DataGrid
+          loading={data.length === 0}
           rows={data}
           columns={columns}
           initialState={{
