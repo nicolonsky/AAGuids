@@ -1,6 +1,6 @@
 {
-  "short_name": "AADGUIDs",
-  "name": "AADGUIDs for passkeys",
+  "short_name": "AAGUIDs",
+  "name": "AAGUIDs for passkeys",
   "icons": [
     {
       "src": "favicon.ico",

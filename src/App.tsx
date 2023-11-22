@@ -1,16 +1,21 @@
 import { useState } from 'react';
 import { DataGrid, GridToolbar } from '@mui/x-data-grid';
 import { Grid, Link, Typography } from '@mui/material';
+import { UUID } from 'crypto';
 
 function App() {
 
-  const [data, setData] = useState<object[]>([]);
+  type AAGuidInfo = {
+    Name: string,
+    AAGuid: UUID
+  }
+
+  const [data, setData] = useState<AAGuidInfo[]>([]);
   fetch('combined_aaguid.json')
     .then(response => response.json())
-    .then(data => Object.entries(data).map(([key, value]) => ({ id: key, name: (value as { name: string }).name })))
+    .then(data => data.map((entry:AAGuidInfo) => ({ id: entry.AAGuid, name: entry.Name })))
     .then(setData)
     .catch(console.error);
-
 
   const columns = [
     { field: 'name', headerName: 'Name', flex: 1 },
@@ -24,7 +29,6 @@ function App() {
       direction="column"
       alignItems="center"
       justifyContent="center"
-      //sx={{ minHeight: '100vh', minWidth: '75vw' }}
     >
       <Typography variant="h1" component="h2">
         AAGUIDs
