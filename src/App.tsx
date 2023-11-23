@@ -1,7 +1,10 @@
 import { useEffect, useState } from 'react';
 import { DataGrid, GridToolbar } from '@mui/x-data-grid';
-import { Grid, Link, Typography } from '@mui/material';
+import { Avatar, Grid, Link, List, ListItem, ListItemAvatar, ListItemText, Stack, Typography } from '@mui/material';
 import { UUID } from 'crypto';
+import NextPlanIcon from '@mui/icons-material/NextPlan';
+import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
+
 
 function App() {
 
@@ -23,7 +26,7 @@ function App() {
       .then(data => data
         .filter((entry: AAGuidInfo) => entry.protocolFamily === 'fido2')
         .map((entry: AAGuidInfo) => ({ ...entry, id: entry.aaguid }))
-        
+
       )
       .then((filteredData: AAGuidInfo[]) => setData(filteredData))
       .catch(console.error);
@@ -53,9 +56,34 @@ function App() {
         AAGUIDs are the unique identifiers for passkey authenticators. They are used to identify the authenticator when using the WebAuthn API.
       </Typography>
       <Typography>
-        This list is based on the <Link href="https://fidoalliance.org/metadata/">FIDO Alliance Metadata Service</Link> and is updated regularly.
+        This list is based on the <Link href="https://fidoalliance.org/metadata/">FIDO Alliance Metadata Service</Link>.
       </Typography>
 
+      <List component={Stack} direction="row">
+        <ListItem>
+          <ListItemAvatar>
+            <Avatar>
+              <CalendarMonthIcon />
+            </Avatar>
+          </ListItemAvatar>
+          <ListItemText sx={{
+            whiteSpace: 'nowrap',
+            textOverflow: 'ellipsis',
+          }} primary={process.env.REACT_APP_TIME_GENERATED} secondary="Last Update" />
+        </ListItem>
+        <ListItem>
+          <ListItemAvatar>
+            <Avatar>
+              <NextPlanIcon />
+            </Avatar>
+          </ListItemAvatar>
+          <ListItemText sx={{
+            whiteSpace: 'nowrap',
+            textOverflow: 'ellipsis',
+          }}
+            primary={process.env.REACT_APP_NEXT_UPDATE} secondary="Next Update" />
+        </ListItem>
+      </List>
       <Grid item xl style={{ width: '75%' }}>
         <DataGrid
           rows={data}
