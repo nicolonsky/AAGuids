@@ -1352,6 +1352,44 @@
     ]
   },
   {
+    "aaguid": "4c0cf95d-2f40-43b5-ba42-4c83a11c04ba",
+    "description": "Feitian BioPass FIDO2 Pro Authenticator",
+    "authenticatorVersion": 1,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 1
+      },
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wired"
+    ]
+  },
+  {
     "aaguid": "5343502d-5343-5343-6172-644649444f32",
     "description": "ESS Smart Card Inc. Authenticator",
     "authenticatorVersion": 2,
