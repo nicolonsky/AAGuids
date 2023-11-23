@@ -84,11 +84,11 @@ function App() {
             primary={process.env.REACT_APP_NEXT_UPDATE} secondary="Next Update" />
         </ListItem>
       </List>
-      <Grid item xl style={{ width: '75%' }}>
+      <Grid item xl style={{ width: '95%' }}>
         <DataGrid
+          autoHeight={true}
           rows={data}
           columns={columns}
-          getRowHeight={() => 'auto'}
           initialState={{
             sorting: {
               sortModel: [{ field: 'description', sort: 'asc' }],
