@@ -356,6 +356,40 @@
     ]
   },
   {
+    "aaguid": "664d9f67-84a2-412a-9ff7-b4f7d8ee6d05",
+    "description": "OpenSK authenticator",
+    "authenticatorVersion": 1,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "ecc_x962_raw",
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_surrogate"
+    ],
+    "keyProtection": [
+      "hardware"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wired"
+    ]
+  },
+  {
     "aaguid": "3789da91-f943-46bc-95c3-50ea2012f03a",
     "description": "NEOWAVE Winkeo FIDO2",
     "authenticatorVersion": 3,
