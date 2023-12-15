@@ -5918,6 +5918,46 @@
     ]
   },
   {
+    "aaguid": "30b5035e-d297-4ff1-b00b-addc96ba6a98",
+    "description": "OneSpan DIGIPASS FX1 BIO",
+    "authenticatorVersion": 1,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 1
+      },
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "software"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wired",
+      "wireless",
+      "bluetooth"
+    ]
+  },
+  {
     "aaguid": "b267239b-954f-4041-a01b-ee4f33c145b6",
     "description": "authenton1 - CTAP2.1",
     "authenticatorVersion": 5,
