@@ -5234,6 +5234,41 @@
     ]
   },
   {
+    "aaguid": null,
+    "description": "VeriMark DT Fingerprint Key",
+    "authenticatorVersion": 2,
+    "protocolFamily": "u2f",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 2
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "ecc_x962_raw"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element",
+      "remote_handle"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 112,
+    "attachmentHint": [
+      "external",
+      "wired"
+    ]
+  },
+  {
     "aaguid": "504d7149-4e4c-3841-4555-55445a677357",
     "description": "WiSECURE AuthTron USB FIDO2 Authenticator",
     "authenticatorVersion": 2,
