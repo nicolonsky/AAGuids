@@ -609,7 +609,7 @@
   },
   {
     "aaguid": "931327dd-c89b-406c-a81e-ed7058ef36c6",
-    "description": "Swissbit iShield FIDO2",
+    "description": "Swissbit iShield Key FIDO2",
     "authenticatorVersion": 5,
     "protocolFamily": "fido2",
     "schema": 3,
@@ -4161,6 +4161,44 @@
     ]
   },
   {
+    "aaguid": null,
+    "description": "ZTPass Card",
+    "authenticatorVersion": 2,
+    "protocolFamily": "u2f",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 1
+      },
+      {
+        "major": 1,
+        "minor": 2
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "ecc_x962_raw"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wired"
+    ]
+  },
+  {
     "aaguid": "58b44d0b-0a7c-f33a-fd48-f7153c871352",
     "description": "Ledger Nano S Plus FIDO2 Authenticator",
     "authenticatorVersion": 1,
@@ -6099,6 +6137,46 @@
     "cryptoStrength": 128,
     "attachmentHint": [
       "external",
+      "wireless",
+      "nfc"
+    ]
+  },
+  {
+    "aaguid": "99bf4610-ec26-4252-b31f-7380ccd59db5",
+    "description": "ZTPass Card",
+    "authenticatorVersion": 45,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 1
+      },
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wired",
       "wireless",
       "nfc"
     ]
