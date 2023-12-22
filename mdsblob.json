@@ -104,6 +104,45 @@
     ]
   },
   {
+    "aaguid": "5626bed4-e756-430b-a7ff-ca78c8b12738",
+    "description": "VALMIDO PRO FIDO",
+    "authenticatorVersion": 1,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 0
+      },
+      {
+        "major": 1,
+        "minor": 1
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wireless",
+      "bluetooth"
+    ]
+  },
+  {
     "aaguid": "95e4d58c-056e-4a65-866d-f5a69659e880",
     "description": "TruU Windows Authenticator",
     "authenticatorVersion": 1,
