@@ -2,7 +2,7 @@
   {
     "aaguid": "fcb1bcb4-f370-078c-6993-bc24d0ae3fbe",
     "description": "Ledger Nano X FIDO2 Authenticator",
-    "authenticatorVersion": 1,
+    "authenticatorVersion": 10500,
     "protocolFamily": "fido2",
     "schema": 3,
     "upv": [
@@ -497,6 +497,42 @@
       "wired",
       "wireless",
       "nfc"
+    ]
+  },
+  {
+    "aaguid": "341e4da9-3c2e-8103-5a9f-aad887135200",
+    "description": "Ledger Nano S FIDO2 Authenticator",
+    "authenticatorVersion": 10500,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256k1_ecdsa_sha256_raw",
+      "secp256r1_ecdsa_sha256_raw",
+      "ed25519_eddsa_sha512_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wired"
     ]
   },
   {
@@ -4240,7 +4276,7 @@
   {
     "aaguid": "58b44d0b-0a7c-f33a-fd48-f7153c871352",
     "description": "Ledger Nano S Plus FIDO2 Authenticator",
-    "authenticatorVersion": 1,
+    "authenticatorVersion": 10500,
     "protocolFamily": "fido2",
     "schema": 3,
     "upv": [
