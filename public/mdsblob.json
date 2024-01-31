@@ -6426,6 +6426,42 @@
     ]
   },
   {
+    "aaguid": "5d629218-d3a5-11ed-afa1-0242ac120002",
+    "description": "Swissbit iShield Key Pro",
+    "authenticatorVersion": 1,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wired",
+      "wireless",
+      "nfc"
+    ]
+  },
+  {
     "aaguid": "d41f5a69-b817-4144-a13c-9ebd6d9254d6",
     "description": "ATKey.Card CTAP2.0",
     "authenticatorVersion": 3000039,
