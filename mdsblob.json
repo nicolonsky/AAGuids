@@ -6320,7 +6320,7 @@
   {
     "aaguid": "b267239b-954f-4041-a01b-ee4f33c145b6",
     "description": "authenton1 - CTAP2.1",
-    "authenticatorVersion": 5,
+    "authenticatorVersion": 6,
     "protocolFamily": "fido2",
     "schema": 3,
     "upv": [
