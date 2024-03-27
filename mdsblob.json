@@ -5198,6 +5198,39 @@
     ]
   },
   {
+    "aaguid": "53414d53-554e-4700-0000-000000000000",
+    "description": "Samsung Pass",
+    "authenticatorVersion": 1,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 2,
+        "minor": 1
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "tee"
+    ],
+    "matcherProtection": [
+      "tee"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "internal"
+    ]
+  },
+  {
     "aaguid": null,
     "description": "Security Key NFC by Yubico",
     "authenticatorVersion": 328707,
