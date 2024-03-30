@@ -2403,6 +2403,41 @@
     ]
   },
   {
+    "aaguid": "970c8d9c-19d2-46af-aa32-3f448db49e35",
+    "description": "WinMagic FIDO Eazy - TPM",
+    "authenticatorVersion": 1,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "rsassa_pkcsv15_sha256_raw",
+      "secp256r1_ecdsa_sha256_raw",
+      "rsassa_pkcsv15_sha1_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "software"
+    ],
+    "cryptoStrength": 112,
+    "attachmentHint": [
+      "internal"
+    ]
+  },
+  {
     "aaguid": "c5703116-972b-4851-a3e7-ae1259843399",
     "description": "NEOWAVE Badgeo FIDO2",
     "authenticatorVersion": 2,
@@ -2820,6 +2855,39 @@
     ]
   },
   {
+    "aaguid": "f56f58b3-d711-4afc-ba7d-6ac05f88cb19",
+    "description": "WinMagic FIDO Eazy - Phone",
+    "authenticatorVersion": 1,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "software"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "internal"
+    ]
+  },
+  {
     "aaguid": null,
     "description": "Arculus FIDO2/U2F Key Card [P71]",
     "authenticatorVersion": 100,
@@ -3036,6 +3104,40 @@
       "wired",
       "wireless",
       "nfc"
+    ]
+  },
+  {
+    "aaguid": "31c3f7ff-bf15-4327-83ec-9336abcbcd34",
+    "description": "WinMagic FIDO Eazy - Software",
+    "authenticatorVersion": 1,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "rsassa_pkcsv15_sha1_raw",
+      "secp256r1_ecdsa_sha256_raw",
+      "rsassa_pkcsv15_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "software"
+    ],
+    "matcherProtection": [
+      "software"
+    ],
+    "cryptoStrength": 112,
+    "attachmentHint": [
+      "internal"
     ]
   },
   {
