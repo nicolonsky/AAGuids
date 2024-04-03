@@ -4629,6 +4629,40 @@
     ]
   },
   {
+    "aaguid": "454e5346-4944-4ffd-6c93-8e9267193e9b",
+    "description": "Ensurity AUTH BioPro",
+    "authenticatorVersion": 2,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 1
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wired"
+    ]
+  },
+  {
     "aaguid": null,
     "description": "KONAI Secp256R1 Conformance Testing U2F Authenticator",
     "authenticatorVersion": 2,
