@@ -183,6 +183,44 @@
     ]
   },
   {
+    "aaguid": "6dae43be-af9c-417b-8b9f-1b611168ec60",
+    "description": "Dapple Authenticator from Dapple Security Inc.",
+    "authenticatorVersion": 1,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 1
+      },
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_surrogate",
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "software"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "internal"
+    ]
+  },
+  {
     "aaguid": "5626bed4-e756-430b-a7ff-ca78c8b12738",
     "description": "VALMIDO PRO FIDO",
     "authenticatorVersion": 1,
