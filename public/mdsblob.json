@@ -4277,6 +4277,44 @@
     ]
   },
   {
+    "aaguid": "7d2afadd-bf6b-44a2-a66b-e831fceb8eff",
+    "description": "Taglio CTAP2.1 EP",
+    "authenticatorVersion": 2308,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 1
+      },
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "nfc"
+    ]
+  },
+  {
     "aaguid": null,
     "description": "Touch ID or Face ID",
     "authenticatorVersion": 256,
@@ -4695,6 +4733,44 @@
     "cryptoStrength": null,
     "attachmentHint": [
       "internal"
+    ]
+  },
+  {
+    "aaguid": "092277e5-8437-46b5-b911-ea64b294acb7",
+    "description": "Taglio CTAP2.1 CS",
+    "authenticatorVersion": 2308,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 1
+      },
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "nfc"
     ]
   },
   {
