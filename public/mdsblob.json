@@ -260,6 +260,42 @@
     ]
   },
   {
+    "aaguid": "260e3021-482d-442d-838c-7edfbe153b7e",
+    "description": "Feitian ePass FIDO2-NFC Plus Authenticator",
+    "authenticatorVersion": 1,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wired",
+      "wireless",
+      "nfc"
+    ]
+  },
+  {
     "aaguid": "95e4d58c-056e-4a65-866d-f5a69659e880",
     "description": "TruU Windows Authenticator",
     "authenticatorVersion": 1,
