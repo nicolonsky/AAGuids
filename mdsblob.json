@@ -5020,7 +5020,7 @@
   },
   {
     "aaguid": null,
-    "description": "ZTPass Card",
+    "description": "ZTPass SmartAuth",
     "authenticatorVersion": 2,
     "protocolFamily": "u2f",
     "schema": 3,
@@ -7342,7 +7342,7 @@
   },
   {
     "aaguid": "99bf4610-ec26-4252-b31f-7380ccd59db5",
-    "description": "ZTPass Card",
+    "description": "ZTPass SmartAuth",
     "authenticatorVersion": 45,
     "protocolFamily": "fido2",
     "schema": 3,
