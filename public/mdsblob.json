@@ -2797,6 +2797,43 @@
     ]
   },
   {
+    "aaguid": null,
+    "description": "Security Key NFC by Yubico",
+    "authenticatorVersion": 329473,
+    "protocolFamily": "u2f",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 2
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "ecc_x962_raw"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element",
+      "remote_handle"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wired",
+      "wireless",
+      "nfc"
+    ]
+  },
+  {
     "aaguid": "970c8d9c-19d2-46af-aa32-3f448db49e35",
     "description": "WinMagic FIDO Eazy - TPM",
     "authenticatorVersion": 1,
@@ -3393,6 +3430,43 @@
     "cryptoStrength": 128,
     "attachmentHint": [
       "internal"
+    ]
+  },
+  {
+    "aaguid": null,
+    "description": "Security Key NFC by Yubico - Enterprise Edition",
+    "authenticatorVersion": 329473,
+    "protocolFamily": "u2f",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 2
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "ecc_x962_raw"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element",
+      "remote_handle"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wired",
+      "wireless",
+      "nfc"
     ]
   },
   {
@@ -4369,6 +4443,43 @@
     ]
   },
   {
+    "aaguid": null,
+    "description": "YubiKey 5 Series with NFC",
+    "authenticatorVersion": 329473,
+    "protocolFamily": "u2f",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 2
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "ecc_x962_raw"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element",
+      "remote_handle"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wired",
+      "wireless",
+      "nfc"
+    ]
+  },
+  {
     "aaguid": "23786452-f02d-4344-87ed-aaf703726881",
     "description": "SafeNet eToken Fusion CC",
     "authenticatorVersion": 2,
@@ -4544,6 +4655,46 @@
     "cryptoStrength": 256,
     "attachmentHint": [
       "external"
+    ]
+  },
+  {
+    "aaguid": "58276709-bb4b-4bb3-baf1-60eea99282a7",
+    "description": "YubiKey Bio Series - Multi-protocol Edition 1VDJSN",
+    "authenticatorVersion": 329474,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 1
+      },
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp384r1_ecdsa_sha384_raw",
+      "ed25519_eddsa_sha512_raw",
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wired"
     ]
   },
   {
