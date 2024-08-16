@@ -1207,7 +1207,7 @@
   },
   {
     "aaguid": "9ff4cc65-6154-4fff-ba09-9e2af7882ad2",
-    "description": "Security Key NFC by Yubico - Enterprise Edition Enterprise Profile",
+    "description": "Security Key NFC by Yubico - Enterprise Edition (Enterprise Profile)",
     "authenticatorVersion": 329473,
     "protocolFamily": "fido2",
     "schema": 3,
@@ -6783,6 +6783,44 @@
       "external",
       "wireless",
       "nfc"
+    ]
+  },
+  {
+    "aaguid": "5753362b-4e6b-6345-7b2f-255438404c75",
+    "description": "WiSECURE Blentity FIDO2 Authenticator",
+    "authenticatorVersion": 2,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 0
+      },
+      {
+        "major": 1,
+        "minor": 1
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wired"
     ]
   },
   {
