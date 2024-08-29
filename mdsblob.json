@@ -2553,6 +2553,40 @@
     ]
   },
   {
+    "aaguid": "8681a073-5f50-4d52-bce4-e21658d207b3",
+    "description": "RSA Authenticator 4 for iOS",
+    "authenticatorVersion": 1,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wireless"
+    ]
+  },
+  {
     "aaguid": null,
     "description": "SOLID webKey",
     "authenticatorVersion": 1,
@@ -2758,6 +2792,40 @@
       "external",
       "wireless",
       "nfc"
+    ]
+  },
+  {
+    "aaguid": "59f85fe7-faa5-4c92-9f52-697b9d4d5473",
+    "description": "RSA Authenticator 4 for Android",
+    "authenticatorVersion": 1,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wireless"
     ]
   },
   {
