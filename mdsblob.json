@@ -3153,6 +3153,45 @@
     ]
   },
   {
+    "aaguid": "2a55aee6-27cb-42c0-bc6e-04efe999e88a",
+    "description": "HID Crescendo 4000",
+    "authenticatorVersion": 262144,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 0
+      },
+      {
+        "major": 1,
+        "minor": 1
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wireless",
+      "nfc"
+    ]
+  },
+  {
     "aaguid": "820d89ed-d65a-409e-85cb-f73f0578f82a",
     "description": "IDmelon iOS Authenticator",
     "authenticatorVersion": 2,
