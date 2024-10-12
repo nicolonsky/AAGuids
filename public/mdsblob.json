@@ -2034,6 +2034,44 @@
     ]
   },
   {
+    "aaguid": "69e7c36f-f2f6-9e0d-07a6-bcc243262e6b",
+    "description": "OneKey FIDO2 Authenticator",
+    "authenticatorVersion": 5,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 1
+      },
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wired"
+    ]
+  },
+  {
     "aaguid": "09591fc6-9811-48f7-8f57-b9f23df6413f",
     "description": "Pone Biometrics OFFPAD Authenticator",
     "authenticatorVersion": 1,
@@ -6288,7 +6326,7 @@
   },
   {
     "aaguid": "5ca1ab1e-1337-fa57-f1d0-a117e71ca702",
-    "description": "Allthenticator App: roaming BLE FIDO2 Allthenticator for Windows, Mac, Linux, and Allthenticate door readers",
+    "description": "Allthenticator iOS App: roaming BLE FIDO2 Allthenticator for Windows, Mac, Linux, and Allthenticate door readers",
     "authenticatorVersion": 5,
     "protocolFamily": "fido2",
     "schema": 3,
@@ -6305,7 +6343,7 @@
       "cose"
     ],
     "attestationTypes": [
-      "basic_surrogate"
+      "basic_full"
     ],
     "keyProtection": [
       "hardware",
