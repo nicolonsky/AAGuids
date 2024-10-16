@@ -4955,6 +4955,41 @@
     ]
   },
   {
+    "aaguid": null,
+    "description": "YubiKey Bio Series - Multi-protocol Edition 1VDJSN",
+    "authenticatorVersion": 329474,
+    "protocolFamily": "u2f",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 2
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "ecc_x962_raw"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element",
+      "remote_handle"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wired"
+    ]
+  },
+  {
     "aaguid": "87dbc5a1-4c94-4dc8-8a47-97d800fd1f3c",
     "description": "eWBM eFA320 FIDO2 Authenticator",
     "authenticatorVersion": 1,
