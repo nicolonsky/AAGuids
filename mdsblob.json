@@ -1426,6 +1426,44 @@
     ]
   },
   {
+    "aaguid": "99ed6c29-4573-4847-816d-78ad8f1c75ef",
+    "description": "VeroCard FIDO2 Authenticator",
+    "authenticatorVersion": 2,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 1
+      },
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "wireless",
+      "bluetooth"
+    ]
+  },
+  {
     "aaguid": null,
     "description": "YubiKey Bio FIDO Edition",
     "authenticatorVersion": 329474,
