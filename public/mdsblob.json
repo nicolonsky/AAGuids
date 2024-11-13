@@ -1426,6 +1426,48 @@
     ]
   },
   {
+    "aaguid": "ce6bf97f-9f69-4ba7-9032-97adc6ca5cf1",
+    "description": "YubiKey 5 FIPS Series with NFC",
+    "authenticatorVersion": 329476,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 1
+      },
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp384r1_ecdsa_sha384_raw",
+      "ed25519_eddsa_sha512_raw",
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wired",
+      "wireless",
+      "nfc"
+    ]
+  },
+  {
     "aaguid": "99ed6c29-4573-4847-816d-78ad8f1c75ef",
     "description": "VeroCard FIDO2 Authenticator",
     "authenticatorVersion": 2,
@@ -4920,6 +4962,46 @@
     ]
   },
   {
+    "aaguid": "d2fbd093-ee62-488d-9dad-1e36389f8826",
+    "description": "YubiKey 5 FIPS Series",
+    "authenticatorVersion": 329476,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 0
+      },
+      {
+        "major": 1,
+        "minor": 1
+      }
+    ],
+    "authenticationAlgorithms": [
+      "ed25519_eddsa_sha512_raw",
+      "secp384r1_ecdsa_sha384_raw",
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wired"
+    ]
+  },
+  {
     "aaguid": "234cd403-35a2-4cc2-8015-77ea280c77f5",
     "description": "Feitian ePass FIDO2-NFC Series (CTAP2.1, CTAP2.0, U2F)",
     "authenticatorVersion": 1,
@@ -5955,6 +6037,46 @@
     "cryptoStrength": 128,
     "attachmentHint": [
       "external"
+    ]
+  },
+  {
+    "aaguid": "9e66c661-e428-452a-a8fb-51f7ed088acf",
+    "description": "YubiKey 5 FIPS Series with Lightning",
+    "authenticatorVersion": 329476,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 1
+      },
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp384r1_ecdsa_sha384_raw",
+      "ed25519_eddsa_sha512_raw",
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wired"
     ]
   },
   {
