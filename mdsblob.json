@@ -520,6 +520,44 @@
     ]
   },
   {
+    "aaguid": "2bff89f2-323a-48fc-b7c8-9ff7fe87c07e",
+    "description": "Feitian BioPass FIDO2 Pro (Enterprise Profile)",
+    "authenticatorVersion": 1,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 0
+      },
+      {
+        "major": 1,
+        "minor": 1
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wired"
+    ]
+  },
+  {
     "aaguid": "c5ef55ff-ad9a-4b9f-b580-adebafe026d0",
     "description": "YubiKey 5 Series with Lightning",
     "authenticatorVersion": 328706,
@@ -2260,6 +2298,40 @@
     ]
   },
   {
+    "aaguid": null,
+    "description": "Feitian BioPass FIDO2 Pro Authenticator",
+    "authenticatorVersion": 1,
+    "protocolFamily": "u2f",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 2
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "ecc_x962_raw"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element",
+      "remote_handle"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external"
+    ]
+  },
+  {
     "aaguid": "73bb0cd4-e502-49b8-9c6f-b59445bf720b",
     "description": "YubiKey 5 FIPS Series",
     "authenticatorVersion": 328706,
@@ -3331,6 +3403,44 @@
       "secp256r1_ecdsa_sha256_raw",
       "ed25519_eddsa_sha512_raw",
       "secp384r1_ecdsa_sha384_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wired"
+    ]
+  },
+  {
+    "aaguid": "12755c32-8ad1-46eb-881c-e0b38d848b09",
+    "description": "Feitian ePass FIDO Authenticator (CTAP2.1, CTAP2.0, U2F)",
+    "authenticatorVersion": 1,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 0
+      },
+      {
+        "major": 1,
+        "minor": 1
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
     ],
     "publicKeyAlgAndEncodings": [
       "cose"
@@ -5832,6 +5942,40 @@
     ]
   },
   {
+    "aaguid": null,
+    "description": "Feitian BioPass FIDO2 Plus Authenticator",
+    "authenticatorVersion": 1,
+    "protocolFamily": "u2f",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 2
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "ecc_x962_raw"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element",
+      "remote_handle"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external"
+    ]
+  },
+  {
     "aaguid": "092277e5-8437-46b5-b911-ea64b294acb7",
     "description": "Taglio CTAP2.1 CS",
     "authenticatorVersion": 2308,
@@ -6222,6 +6366,40 @@
       "wired",
       "wireless",
       "nfc"
+    ]
+  },
+  {
+    "aaguid": null,
+    "description": "Feitian BioPass FIDO2 Pro (Enterprise Profile)",
+    "authenticatorVersion": 1,
+    "protocolFamily": "u2f",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 2
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "ecc_x962_raw"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element",
+      "remote_handle"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external"
     ]
   },
   {
@@ -7462,6 +7640,44 @@
     ]
   },
   {
+    "aaguid": "a02140b7-0cbd-42e1-a9b5-a39da2545114",
+    "description": "Feitian BioPass FIDO2 Plus (Enterprise Profile)",
+    "authenticatorVersion": 1,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 1
+      },
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wired"
+    ]
+  },
+  {
     "aaguid": "5753362b-4e6b-6345-7b2f-255438404c75",
     "description": "WiSECURE Blentity FIDO2 Authenticator",
     "authenticatorVersion": 2,
@@ -8302,6 +8518,44 @@
     ]
   },
   {
+    "aaguid": "42df17de-06ba-4177-a2bb-6701be1380d6",
+    "description": "Feitian BioPass FIDO2 Plus Authenticator",
+    "authenticatorVersion": 1,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 1
+      },
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wired"
+    ]
+  },
+  {
     "aaguid": "d7a423ad-3e19-4492-9200-78137dccc136",
     "description": "VivoKey Apex FIDO2",
     "authenticatorVersion": 1,
@@ -8982,6 +9236,40 @@
       "on_chip"
     ],
     "cryptoStrength": null,
+    "attachmentHint": [
+      "external"
+    ]
+  },
+  {
+    "aaguid": null,
+    "description": "Feitian BioPass FIDO2 Plus (Enterprise Profile)",
+    "authenticatorVersion": 1,
+    "protocolFamily": "u2f",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 2
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "ecc_x962_raw"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element",
+      "remote_handle"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
     "attachmentHint": [
       "external"
     ]
