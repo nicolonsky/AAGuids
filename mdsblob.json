@@ -478,6 +478,45 @@
     ]
   },
   {
+    "aaguid": "c3f47802-de73-4dfc-ba22-671fe3304f90",
+    "description": "eToken Fusion NFC PIV Enterprise",
+    "authenticatorVersion": 5,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 0
+      },
+      {
+        "major": 1,
+        "minor": 1
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wireless",
+      "nfc"
+    ]
+  },
+  {
     "aaguid": "0d9b2e56-566b-c393-2940-f821b7f15d6d",
     "description": "Excelsecu eSecu FIDO2 Pro Security Key",
     "authenticatorVersion": 256,
@@ -838,6 +877,46 @@
     "cryptoStrength": 128,
     "attachmentHint": [
       "bluetooth"
+    ]
+  },
+  {
+    "aaguid": "8da0e4dc-164b-454e-972e-88f362b23d59",
+    "description": "CardOS FIDO2 Token",
+    "authenticatorVersion": 1,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 0
+      },
+      {
+        "major": 1,
+        "minor": 1
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wired",
+      "wireless",
+      "nfc"
     ]
   },
   {
