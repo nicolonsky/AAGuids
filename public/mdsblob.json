@@ -1544,7 +1544,7 @@
   },
   {
     "aaguid": "ce6bf97f-9f69-4ba7-9032-97adc6ca5cf1",
-    "description": "YubiKey 5 FIPS Series with NFC",
+    "description": "YubiKey 5 FIPS Series with NFC (RC Preview)",
     "authenticatorVersion": 329476,
     "protocolFamily": "fido2",
     "schema": 3,
@@ -5152,7 +5152,7 @@
   },
   {
     "aaguid": "d2fbd093-ee62-488d-9dad-1e36389f8826",
-    "description": "YubiKey 5 FIPS Series",
+    "description": "YubiKey 5 FIPS Series (RC Preview)",
     "authenticatorVersion": 329476,
     "protocolFamily": "fido2",
     "schema": 3,
@@ -6264,7 +6264,7 @@
   },
   {
     "aaguid": "9e66c661-e428-452a-a8fb-51f7ed088acf",
-    "description": "YubiKey 5 FIPS Series with Lightning",
+    "description": "YubiKey 5 FIPS Series with Lightning (RC Preview)",
     "authenticatorVersion": 329476,
     "protocolFamily": "fido2",
     "schema": 3,
