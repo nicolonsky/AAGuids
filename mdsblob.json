@@ -6594,6 +6594,45 @@
     ]
   },
   {
+    "aaguid": "146e77ef-11eb-4423-b847-ce77864e9411",
+    "description": "eToken Fusion NFC PIV",
+    "authenticatorVersion": 6,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 1
+      },
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wireless",
+      "nfc"
+    ]
+  },
+  {
     "aaguid": null,
     "description": "ID-One Card",
     "authenticatorVersion": 16777216,
