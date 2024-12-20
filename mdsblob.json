@@ -8199,6 +8199,46 @@
     ]
   },
   {
+    "aaguid": "70e7c36f-f2f6-9e0d-07a6-bcc243262e6b",
+    "description": "OneKey FIDO2 Bluetooth Authenticator",
+    "authenticatorVersion": 5,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 0
+      },
+      {
+        "major": 1,
+        "minor": 1
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full",
+      "basic_surrogate"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wired",
+      "bluetooth"
+    ]
+  },
+  {
     "aaguid": null,
     "description": "VeriMark DT Fingerprint Key",
     "authenticatorVersion": 2,
