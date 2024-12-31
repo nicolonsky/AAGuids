@@ -3114,6 +3114,46 @@
     ]
   },
   {
+    "aaguid": "82b0a720-127a-4788-b56d-d1d4b2d82eac",
+    "description": "ID-One Key",
+    "authenticatorVersion": 16777216,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 0
+      },
+      {
+        "major": 1,
+        "minor": 1
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp384r1_ecdsa_sha384_raw",
+      "secp521r1_ecdsa_sha512_raw",
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "wired",
+      "nfc"
+    ]
+  },
+  {
     "aaguid": null,
     "description": "YubiKey 5 FIPS Series with Lightning",
     "authenticatorVersion": 328707,
@@ -8506,6 +8546,46 @@
       "external",
       "wired",
       "wireless",
+      "nfc"
+    ]
+  },
+  {
+    "aaguid": "f2145e86-211e-4931-b874-e22bba7d01cc",
+    "description": "ID-One Key",
+    "authenticatorVersion": 16777216,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 1
+      },
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp384r1_ecdsa_sha384_raw",
+      "secp521r1_ecdsa_sha512_raw",
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "wired",
       "nfc"
     ]
   },
