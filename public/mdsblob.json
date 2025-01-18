@@ -5749,6 +5749,44 @@
     ]
   },
   {
+    "aaguid": "1d1b4e33-76a1-47fb-97a0-14b10d0933f1",
+    "description": "Cryptnox FIDO2.1",
+    "authenticatorVersion": 10,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 0
+      },
+      {
+        "major": 1,
+        "minor": 1
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "nfc"
+    ]
+  },
+  {
     "aaguid": "bbf4b6a7-679d-f6fc-c4f2-8ac0ddf9015a",
     "description": "Excelsecu eSecu FIDO2 PRO Security Key",
     "authenticatorVersion": 2,
@@ -6658,6 +6696,45 @@
     "cryptoStrength": null,
     "attachmentHint": [
       "internal"
+    ]
+  },
+  {
+    "aaguid": "773c30d9-5919-4e96-a4f5-db65e95cf890",
+    "description": "GSTAG OAK FIDO2 Authenticator",
+    "authenticatorVersion": 1,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 1
+      },
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wireless",
+      "nfc"
     ]
   },
   {
