@@ -72,6 +72,41 @@
   },
   {
     "aaguid": null,
+    "description": "YubiKey 5 Series",
+    "authenticatorVersion": 329476,
+    "protocolFamily": "u2f",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 2
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "ecc_x962_raw"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element",
+      "remote_handle"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wired"
+    ]
+  },
+  {
+    "aaguid": null,
     "description": "NEOWAVE Winkeo FIDO2",
     "authenticatorVersion": 2,
     "protocolFamily": "u2f",
@@ -2037,7 +2072,7 @@
   {
     "aaguid": "08987058-cadc-4b81-b6e1-30de50dcbe96",
     "description": "Windows Hello Hardware Authenticator",
-    "authenticatorVersion": 1,
+    "authenticatorVersion": 19042,
     "protocolFamily": "fido2",
     "schema": 3,
     "upv": [
@@ -2053,6 +2088,7 @@
       "cose"
     ],
     "attestationTypes": [
+      "basic_surrogate",
       "attca"
     ],
     "keyProtection": [
@@ -5210,7 +5246,7 @@
   {
     "aaguid": "9ddd1817-af5a-4672-a2b9-3e3dd95000a9",
     "description": "Windows Hello VBS Hardware Authenticator",
-    "authenticatorVersion": 1,
+    "authenticatorVersion": 19042,
     "protocolFamily": "fido2",
     "schema": 3,
     "upv": [
@@ -5226,7 +5262,8 @@
       "cose"
     ],
     "attestationTypes": [
-      "attca"
+      "attca",
+      "basic_surrogate"
     ],
     "keyProtection": [
       "hardware",
@@ -7421,6 +7458,43 @@
     "attachmentHint": [
       "external",
       "wired"
+    ]
+  },
+  {
+    "aaguid": null,
+    "description": "YubiKey 5 Series with NFC (Enterprise Profile)",
+    "authenticatorVersion": 329476,
+    "protocolFamily": "u2f",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 2
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "ecc_x962_raw"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element",
+      "remote_handle"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wired",
+      "wireless",
+      "nfc"
     ]
   },
   {
