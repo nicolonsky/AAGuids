@@ -1773,7 +1773,7 @@
   },
   {
     "aaguid": "ad08c78a-4e41-49b9-86a2-ac15b06899e2",
-    "description": "YubiKey Bio Series ",
+    "description": "YubiKey Bio Series - FIDO Edition",
     "authenticatorVersion": 329476,
     "protocolFamily": "fido2",
     "schema": 3,
@@ -1893,7 +1893,7 @@
   },
   {
     "aaguid": null,
-    "description": "YubiKey Bio FIDO Edition",
+    "description": "YubiKey Bio Series - FIDO Edition",
     "authenticatorVersion": 329474,
     "protocolFamily": "u2f",
     "schema": 3,
@@ -3221,7 +3221,7 @@
   },
   {
     "aaguid": null,
-    "description": "YubiKey Bio Series (Enterprise Profile)",
+    "description": "YubiKey Bio Series - FIDO Edition (Enterprise Profile)",
     "authenticatorVersion": 329476,
     "protocolFamily": "u2f",
     "schema": 3,
@@ -3288,7 +3288,7 @@
   },
   {
     "aaguid": "8c39ee86-7f9a-4a95-9ba3-f6b097e5c2ee",
-    "description": "YubiKey Bio Series (Enterprise Profile)",
+    "description": "YubiKey Bio Series - FIDO Edition (Enterprise Profile)",
     "authenticatorVersion": 329474,
     "protocolFamily": "fido2",
     "schema": 3,
@@ -3900,7 +3900,7 @@
   },
   {
     "aaguid": null,
-    "description": "YubiKey Bio Series",
+    "description": "YubiKey Bio Series - FIDO Edition",
     "authenticatorVersion": 328965,
     "protocolFamily": "u2f",
     "schema": 3,
@@ -5279,7 +5279,7 @@
   },
   {
     "aaguid": "d8522d9f-575b-4866-88a9-ba99fa02f35b",
-    "description": "YubiKey Bio Series",
+    "description": "YubiKey Bio Series - FIDO Edition",
     "authenticatorVersion": 328965,
     "protocolFamily": "fido2",
     "schema": 3,
@@ -6783,7 +6783,7 @@
   },
   {
     "aaguid": "dd86a2da-86a0-4cbe-b462-4bd31f57bc6f",
-    "description": "YubiKey Bio FIDO Edition",
+    "description": "YubiKey Bio Series - FIDO Edition",
     "authenticatorVersion": 329474,
     "protocolFamily": "fido2",
     "schema": 3,
@@ -7030,7 +7030,7 @@
   },
   {
     "aaguid": "83c47309-aabb-4108-8470-8be838b573cb",
-    "description": "YubiKey Bio Series (Enterprise Profile)",
+    "description": "YubiKey Bio Series - FIDO Edition (Enterprise Profile)",
     "authenticatorVersion": 328965,
     "protocolFamily": "fido2",
     "schema": 3,
@@ -7755,7 +7755,7 @@
   },
   {
     "aaguid": null,
-    "description": "YubiKey Bio Series",
+    "description": "YubiKey Bio Series - FIDO Edition",
     "authenticatorVersion": 329476,
     "protocolFamily": "u2f",
     "schema": 3,
@@ -7867,7 +7867,7 @@
   },
   {
     "aaguid": "7409272d-1ff9-4e10-9fc9-ac0019c124fd",
-    "description": "YubiKey Bio Series",
+    "description": "YubiKey Bio Series - FIDO Edition",
     "authenticatorVersion": 329476,
     "protocolFamily": "fido2",
     "schema": 3,
@@ -7942,7 +7942,7 @@
   },
   {
     "aaguid": null,
-    "description": "YubiKey Bio Series (Enterprise Profile)",
+    "description": "YubiKey Bio Series - FIDO Edition (Enterprise Profile)",
     "authenticatorVersion": 328965,
     "protocolFamily": "u2f",
     "schema": 3,
@@ -9369,7 +9369,7 @@
   },
   {
     "aaguid": null,
-    "description": "YubiKey Bio Series (Enterprise Profile)",
+    "description": "YubiKey Bio Series - FIDO Edition (Enterprise Profile)",
     "authenticatorVersion": 329474,
     "protocolFamily": "u2f",
     "schema": 3,
