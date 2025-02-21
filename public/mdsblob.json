@@ -5194,6 +5194,42 @@
     ]
   },
   {
+    "aaguid": "0db01cd6-5618-455b-bb46-1ec203d3213e",
+    "description": "GoldKey Security Token",
+    "authenticatorVersion": 12,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_surrogate"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wired",
+      "wireless",
+      "nfc"
+    ]
+  },
+  {
     "aaguid": "b93fd961-f2e6-462f-b122-82002247de78",
     "description": "Android Authenticator with SafetyNet Attestation",
     "authenticatorVersion": 1,
