@@ -3609,6 +3609,43 @@
     ]
   },
   {
+    "aaguid": "e41b42a3-60ac-4afb-8757-a98f2d7f6c9f",
+    "description": "SafeKey/Classic (FP)",
+    "authenticatorVersion": 1,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 0
+      },
+      {
+        "major": 1,
+        "minor": 1
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external"
+    ]
+  },
+  {
     "aaguid": "c89e6a38-6c00-5426-5aa5-c9cbf48f0382",
     "description": "ACS FIDO Authenticator NFC",
     "authenticatorVersion": 10000,
@@ -8782,6 +8819,39 @@
     "cryptoStrength": null,
     "attachmentHint": [
       "internal"
+    ]
+  },
+  {
+    "aaguid": "b12eac35-586c-4809-a4b1-d81af6c305cf",
+    "description": "SafeKey/Classic (NFC)",
+    "authenticatorVersion": 1,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external"
     ]
   },
   {
