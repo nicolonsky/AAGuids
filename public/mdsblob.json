@@ -9562,6 +9562,39 @@
     ]
   },
   {
+    "aaguid": "b9f6b7b6-f929-4189-bca9-dd951240c132",
+    "description": "Deepnet SafeKey/Classic (USB)",
+    "authenticatorVersion": 1,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external"
+    ]
+  },
+  {
     "aaguid": "0bb43545-fd2c-4185-87dd-feb0b2916ace",
     "description": "Security Key NFC by Yubico - Enterprise Edition",
     "authenticatorVersion": 328707,
