@@ -5629,7 +5629,7 @@
   {
     "aaguid": null,
     "description": "SHALO AUTH",
-    "authenticatorVersion": 1,
+    "authenticatorVersion": 131081,
     "protocolFamily": "u2f",
     "schema": 3,
     "upv": [
