@@ -5380,6 +5380,45 @@
     ]
   },
   {
+    "aaguid": "1e906e14-77af-46bc-ae9f-fe6ef18257e4",
+    "description": "VeridiumID Passkey iOS SDK",
+    "authenticatorVersion": 1,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 1
+      },
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "tee"
+    ],
+    "matcherProtection": [
+      "software"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wireless",
+      "bluetooth"
+    ]
+  },
+  {
     "aaguid": "2fc0579f-8113-47ea-b116-bb5a8db9202a",
     "description": "YubiKey 5 Series with NFC",
     "authenticatorVersion": 328706,
@@ -8147,6 +8186,45 @@
     ]
   },
   {
+    "aaguid": "8d4378b0-725d-4432-b3c2-01fcdaf46286",
+    "description": "VeridiumID Passkey Android SDK",
+    "authenticatorVersion": 1,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 0
+      },
+      {
+        "major": 1,
+        "minor": 1
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "tee"
+    ],
+    "matcherProtection": [
+      "software"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wireless",
+      "bluetooth"
+    ]
+  },
+  {
     "aaguid": null,
     "description": "YubiKey NEO",
     "authenticatorVersion": 2,
@@ -10755,6 +10833,43 @@
     "cryptoStrength": null,
     "attachmentHint": [
       "external"
+    ]
+  },
+  {
+    "aaguid": "57235694-51a5-4a4d-a81a-f42185df6502",
+    "description": "SHALO AUTH",
+    "authenticatorVersion": 131081,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 1
+      },
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wired"
     ]
   },
   {
