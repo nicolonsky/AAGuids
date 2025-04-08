@@ -702,6 +702,43 @@
     ]
   },
   {
+    "aaguid": null,
+    "description": "Feitian ePass FIDO-NFC (Enterprise Profile) (CTAP2.1, CTAP2.0, U2F)",
+    "authenticatorVersion": 1,
+    "protocolFamily": "u2f",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 2
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "ecc_x962_raw"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element",
+      "remote_handle"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wired",
+      "wireless",
+      "nfc"
+    ]
+  },
+  {
     "aaguid": "2194b428-9397-4046-8f39-007a1605a482",
     "description": "IDPrime 931 Fido",
     "authenticatorVersion": 2,
@@ -1773,7 +1810,7 @@
   },
   {
     "aaguid": "ad08c78a-4e41-49b9-86a2-ac15b06899e2",
-    "description": "YubiKey Bio Series - FIDO Edition",
+    "description": "YubiKey Bio Series - FIDO Edition (Enterprise Profile)",
     "authenticatorVersion": 329476,
     "protocolFamily": "fido2",
     "schema": 3,
@@ -2908,6 +2945,46 @@
     "attachmentHint": [
       "external",
       "wired"
+    ]
+  },
+  {
+    "aaguid": "39589099-9a75-49fc-afaa-801ca211c62a",
+    "description": "Feitian ePass FIDO-NFC (Enterprise Profile) (CTAP2.1, CTAP2.0, U2F)",
+    "authenticatorVersion": 1,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 1
+      },
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wired",
+      "wireless",
+      "nfc"
     ]
   },
   {
@@ -4387,6 +4464,43 @@
     "attachmentHint": [
       "external",
       "wired"
+    ]
+  },
+  {
+    "aaguid": null,
+    "description": "Feitian ePass FIDO-NFC(CTAP2.1, CTAP2.0, U2F)",
+    "authenticatorVersion": 1,
+    "protocolFamily": "u2f",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 2
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "ecc_x962_raw"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element",
+      "remote_handle"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wired",
+      "wireless",
+      "nfc"
     ]
   },
   {
@@ -10536,6 +10650,46 @@
     "cryptoStrength": 128,
     "attachmentHint": [
       "external"
+    ]
+  },
+  {
+    "aaguid": "78ba3993-d784-4f44-8d6e-cc0a8ad5230e",
+    "description": "Feitian ePass FIDO-NFC(CTAP2.1, CTAP2.0, U2F)",
+    "authenticatorVersion": 1,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 0
+      },
+      {
+        "major": 1,
+        "minor": 1
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wired",
+      "wireless",
+      "nfc"
     ]
   },
   {
