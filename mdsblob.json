@@ -7218,6 +7218,44 @@
     ]
   },
   {
+    "aaguid": "1d8cac46-47a1-3386-af50-e88ae46fe802",
+    "description": "Ledger Flex FIDO2 Authenticator",
+    "authenticatorVersion": 10605,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw",
+      "secp256k1_ecdsa_sha256_raw",
+      "ed25519_eddsa_sha512_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wired",
+      "wireless",
+      "nfc"
+    ]
+  },
+  {
     "aaguid": null,
     "description": "YubiKey Bio Series - Multi-protocol Edition (Enterprise Profile)",
     "authenticatorVersion": 329474,
@@ -11321,6 +11359,44 @@
     "attachmentHint": [
       "external",
       "wired"
+    ]
+  },
+  {
+    "aaguid": "6e24d385-004a-16a0-7bfe-efd963845b34",
+    "description": "Ledger Stax FIDO2 Authenticator",
+    "authenticatorVersion": 10605,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256k1_ecdsa_sha256_raw",
+      "ed25519_eddsa_sha512_raw",
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wired",
+      "wireless",
+      "nfc"
     ]
   },
   {
