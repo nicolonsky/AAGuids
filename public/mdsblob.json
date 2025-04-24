@@ -1931,6 +1931,42 @@
     ]
   },
   {
+    "aaguid": null,
+    "description": "G+D UserChoiceKeystoreAndroid",
+    "authenticatorVersion": 1,
+    "protocolFamily": "uaf",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 2
+      },
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_der"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "ecc_x962_der"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware"
+    ],
+    "matcherProtection": [
+      "software"
+    ],
+    "cryptoStrength": null,
+    "attachmentHint": [
+      "internal"
+    ]
+  },
+  {
     "aaguid": "99ed6c29-4573-4847-816d-78ad8f1c75ef",
     "description": "VeroCard FIDO2 Authenticator",
     "authenticatorVersion": 2,
@@ -2040,6 +2076,42 @@
       "external",
       "wireless",
       "nfc"
+    ]
+  },
+  {
+    "aaguid": null,
+    "description": "G+D mOTPKeychainiOS",
+    "authenticatorVersion": 1,
+    "protocolFamily": "uaf",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 0
+      },
+      {
+        "major": 1,
+        "minor": 2
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_der"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "ecc_x962_raw"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware"
+    ],
+    "matcherProtection": [
+      "software"
+    ],
+    "cryptoStrength": null,
+    "attachmentHint": [
+      "internal"
     ]
   },
   {
@@ -3563,6 +3635,42 @@
     ]
   },
   {
+    "aaguid": null,
+    "description": "G+D SBAKeystoreAndroid",
+    "authenticatorVersion": 1,
+    "protocolFamily": "uaf",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 2
+      },
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_der"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "ecc_x962_der"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware"
+    ],
+    "matcherProtection": [
+      "software"
+    ],
+    "cryptoStrength": null,
+    "attachmentHint": [
+      "internal"
+    ]
+  },
+  {
     "aaguid": "8976631b-d4a0-427f-5773-0ec71c9e0279",
     "description": "Solo Tap Secp256R1 FIDO2 CTAP2 Authenticator",
     "authenticatorVersion": 2,
@@ -3665,6 +3773,42 @@
     "attachmentHint": [
       "external",
       "wireless"
+    ]
+  },
+  {
+    "aaguid": null,
+    "description": "G+D FingerprintKeystoreAndroidM",
+    "authenticatorVersion": 1,
+    "protocolFamily": "uaf",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 2
+      },
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_der"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "ecc_x962_der"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware"
+    ],
+    "matcherProtection": [
+      "software"
+    ],
+    "cryptoStrength": null,
+    "attachmentHint": [
+      "internal"
     ]
   },
   {
@@ -4982,6 +5126,42 @@
   },
   {
     "aaguid": null,
+    "description": "G+D VoiceKeystoreAndroid",
+    "authenticatorVersion": 1,
+    "protocolFamily": "uaf",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 0
+      },
+      {
+        "major": 1,
+        "minor": 2
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_der"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "ecc_x962_der"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware"
+    ],
+    "matcherProtection": [
+      "software"
+    ],
+    "cryptoStrength": null,
+    "attachmentHint": [
+      "internal"
+    ]
+  },
+  {
+    "aaguid": null,
     "description": "YubiKey 5 Series with NFC",
     "authenticatorVersion": 2,
     "protocolFamily": "u2f",
@@ -5675,6 +5855,42 @@
     ]
   },
   {
+    "aaguid": null,
+    "description": "G+D VoiceKeychainiOS",
+    "authenticatorVersion": 1,
+    "protocolFamily": "uaf",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 0
+      },
+      {
+        "major": 1,
+        "minor": 2
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_der"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "ecc_x962_raw"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware"
+    ],
+    "matcherProtection": [
+      "software"
+    ],
+    "cryptoStrength": null,
+    "attachmentHint": [
+      "internal"
+    ]
+  },
+  {
     "aaguid": "9ddd1817-af5a-4672-a2b9-3e3dd95000a9",
     "description": "Windows Hello VBS Hardware Authenticator",
     "authenticatorVersion": 19042,
@@ -5783,6 +5999,42 @@
     "attachmentHint": [
       "external",
       "wired"
+    ]
+  },
+  {
+    "aaguid": null,
+    "description": "G+D FaceKeystoreAndroid",
+    "authenticatorVersion": 1,
+    "protocolFamily": "uaf",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 2
+      },
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_der"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "ecc_x962_der"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware"
+    ],
+    "matcherProtection": [
+      "software"
+    ],
+    "cryptoStrength": null,
+    "attachmentHint": [
+      "internal"
     ]
   },
   {
@@ -6071,6 +6323,42 @@
     "cryptoStrength": 256,
     "attachmentHint": [
       "external"
+    ]
+  },
+  {
+    "aaguid": null,
+    "description": "G+D FingerprintKeychainiOS",
+    "authenticatorVersion": 1,
+    "protocolFamily": "uaf",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 2
+      },
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_der"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "ecc_x962_raw"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": null,
+    "attachmentHint": [
+      "internal"
     ]
   },
   {
@@ -6914,6 +7202,42 @@
       "wired",
       "wireless",
       "nfc"
+    ]
+  },
+  {
+    "aaguid": null,
+    "description": "G+D FaceVoiceKeystoreAndroid",
+    "authenticatorVersion": 1,
+    "protocolFamily": "uaf",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 0
+      },
+      {
+        "major": 1,
+        "minor": 2
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_der"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "ecc_x962_der"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware"
+    ],
+    "matcherProtection": [
+      "software"
+    ],
+    "cryptoStrength": null,
+    "attachmentHint": [
+      "internal"
     ]
   },
   {
@@ -7892,6 +8216,42 @@
     ]
   },
   {
+    "aaguid": null,
+    "description": "G+D PinKeychainiOS",
+    "authenticatorVersion": 1,
+    "protocolFamily": "uaf",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 0
+      },
+      {
+        "major": 1,
+        "minor": 2
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_der"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "ecc_x962_raw"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware"
+    ],
+    "matcherProtection": [
+      "software"
+    ],
+    "cryptoStrength": null,
+    "attachmentHint": [
+      "internal"
+    ]
+  },
+  {
     "aaguid": "9e66c661-e428-452a-a8fb-51f7ed088acf",
     "description": "YubiKey 5 FIPS Series with Lightning (RC Preview)",
     "authenticatorVersion": 329476,
@@ -8638,6 +8998,74 @@
     ]
   },
   {
+    "aaguid": null,
+    "description": "G+D EMVFIDO AUTHENTICATOR",
+    "authenticatorVersion": 1,
+    "protocolFamily": "uaf",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 1
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "ecc_x962_raw"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware"
+    ],
+    "matcherProtection": [
+      "software"
+    ],
+    "cryptoStrength": null,
+    "attachmentHint": [
+      "internal"
+    ]
+  },
+  {
+    "aaguid": null,
+    "description": "G+D PinKeystoreAndroid",
+    "authenticatorVersion": 1,
+    "protocolFamily": "uaf",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 2
+      },
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_der"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "ecc_x962_der"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware"
+    ],
+    "matcherProtection": [
+      "software"
+    ],
+    "cryptoStrength": null,
+    "attachmentHint": [
+      "internal"
+    ]
+  },
+  {
     "aaguid": "7d1351a6-e097-4852-b8bf-c9ac5c9ce4a3",
     "description": "YubiKey Bio Series - Multi-protocol Edition",
     "authenticatorVersion": 329222,
@@ -8675,6 +9103,42 @@
     "attachmentHint": [
       "external",
       "wired"
+    ]
+  },
+  {
+    "aaguid": null,
+    "description": "G+D mOTPKeystoreAndroid",
+    "authenticatorVersion": 1,
+    "protocolFamily": "uaf",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 0
+      },
+      {
+        "major": 1,
+        "minor": 2
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_der"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "ecc_x962_der"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware"
+    ],
+    "matcherProtection": [
+      "software"
+    ],
+    "cryptoStrength": null,
+    "attachmentHint": [
+      "internal"
     ]
   },
   {
@@ -8816,6 +9280,42 @@
     "attachmentHint": [
       "external",
       "wired"
+    ]
+  },
+  {
+    "aaguid": null,
+    "description": "G+D BioPromptKeystoreAndroid",
+    "authenticatorVersion": 1,
+    "protocolFamily": "uaf",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 0
+      },
+      {
+        "major": 1,
+        "minor": 2
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_der"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "ecc_x962_der"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware"
+    ],
+    "matcherProtection": [
+      "software"
+    ],
+    "cryptoStrength": null,
+    "attachmentHint": [
+      "internal"
     ]
   },
   {
@@ -9280,6 +9780,42 @@
     ]
   },
   {
+    "aaguid": null,
+    "description": "G+D FaceIDKeychainiOS",
+    "authenticatorVersion": 1,
+    "protocolFamily": "uaf",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 2
+      },
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_der"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "ecc_x962_raw"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": null,
+    "attachmentHint": [
+      "internal"
+    ]
+  },
+  {
     "aaguid": "1ac71f64-468d-4fe0-bef1-0e5f2f551f18",
     "description": "YubiKey 5 Series with NFC (Enterprise Profile)",
     "authenticatorVersion": 329473,
@@ -9651,6 +10187,42 @@
     "attachmentHint": [
       "external",
       "wired"
+    ]
+  },
+  {
+    "aaguid": null,
+    "description": "G+D SBAKeychainiOS",
+    "authenticatorVersion": 1,
+    "protocolFamily": "uaf",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 0
+      },
+      {
+        "major": 1,
+        "minor": 2
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_der"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "ecc_x962_raw"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware"
+    ],
+    "matcherProtection": [
+      "software"
+    ],
+    "cryptoStrength": null,
+    "attachmentHint": [
+      "internal"
     ]
   },
   {
@@ -11362,6 +11934,42 @@
     ]
   },
   {
+    "aaguid": null,
+    "description": "G+D FaceVoiceKeychainiOS",
+    "authenticatorVersion": 1,
+    "protocolFamily": "uaf",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 2
+      },
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_der"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "ecc_x962_raw"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware"
+    ],
+    "matcherProtection": [
+      "software"
+    ],
+    "cryptoStrength": null,
+    "attachmentHint": [
+      "internal"
+    ]
+  },
+  {
     "aaguid": "6e24d385-004a-16a0-7bfe-efd963845b34",
     "description": "Ledger Stax FIDO2 Authenticator",
     "authenticatorVersion": 10605,
@@ -12394,6 +13002,45 @@
     ]
   },
   {
+    "aaguid": "3fd410dc-8ab7-4b86-a1cb-c7174620b2dc",
+    "description": "IDEMIA SOLVO Fly 80 R1 FIDO Card Draft",
+    "authenticatorVersion": 16777216,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 0
+      },
+      {
+        "major": 1,
+        "minor": 1
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp384r1_ecdsa_sha384_raw",
+      "secp521r1_ecdsa_sha512_raw",
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "nfc"
+    ]
+  },
+  {
     "aaguid": null,
     "description": "VivoKey Apex U2F",
     "authenticatorVersion": 1,
@@ -12608,6 +13255,42 @@
     "attachmentHint": [
       "external",
       "wired"
+    ]
+  },
+  {
+    "aaguid": null,
+    "description": "G+D FaceKeychainiOS",
+    "authenticatorVersion": 1,
+    "protocolFamily": "uaf",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 2
+      },
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_der"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "ecc_x962_raw"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware"
+    ],
+    "matcherProtection": [
+      "software"
+    ],
+    "cryptoStrength": null,
+    "attachmentHint": [
+      "internal"
     ]
   },
   {
