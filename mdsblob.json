@@ -1316,6 +1316,43 @@
     ]
   },
   {
+    "aaguid": "f8d5c4e9-e539-4c06-8662-ec2a4155a555",
+    "description": "StarSign Key Fob",
+    "authenticatorVersion": 1,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "software"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wired",
+      "wireless",
+      "nfc",
+      "bluetooth"
+    ]
+  },
+  {
     "aaguid": "b7d3f68e-88a6-471e-9ecf-2df26d041ede",
     "description": "Security Key NFC by Yubico",
     "authenticatorVersion": 329476,
@@ -2917,6 +2954,41 @@
     ]
   },
   {
+    "aaguid": "912435d9-4a88-42f3-972d-1244b0d51420",
+    "description": "SI0X FIDO CL WRIST v1.0",
+    "authenticatorVersion": 1,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "software"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wireless",
+      "nfc"
+    ]
+  },
+  {
     "aaguid": "7e3f3d30-3557-4442-bdae-139312178b39",
     "description": "RSA DS100",
     "authenticatorVersion": 1,
@@ -4430,6 +4502,41 @@
     "attachmentHint": [
       "external",
       "wired",
+      "wireless",
+      "nfc"
+    ]
+  },
+  {
+    "aaguid": null,
+    "description": "SI0X FIDO CL WRIST v1.0",
+    "authenticatorVersion": 1,
+    "protocolFamily": "u2f",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 1
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "ecc_x962_raw"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "software"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
       "wireless",
       "nfc"
     ]
@@ -8081,6 +8188,43 @@
   },
   {
     "aaguid": null,
+    "description": "StarSign Key Fob",
+    "authenticatorVersion": 1,
+    "protocolFamily": "u2f",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 2
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "ecc_x962_raw"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "software"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wired",
+      "wireless",
+      "nfc",
+      "bluetooth"
+    ]
+  },
+  {
+    "aaguid": null,
     "description": "YubiKey 5 Series",
     "authenticatorVersion": 329473,
     "protocolFamily": "u2f",
@@ -8429,6 +8573,41 @@
     ],
     "matcherProtection": [
       "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wireless",
+      "nfc"
+    ]
+  },
+  {
+    "aaguid": null,
+    "description": "StarSign FIDO Card",
+    "authenticatorVersion": 1,
+    "protocolFamily": "u2f",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 1
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "ecc_x962_raw"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "software"
     ],
     "cryptoStrength": 128,
     "attachmentHint": [
@@ -13364,6 +13543,41 @@
     "cryptoStrength": 128,
     "attachmentHint": [
       "external"
+    ]
+  },
+  {
+    "aaguid": "c89674e3-a765-4b07-888a-7c086fbdf04b",
+    "description": "StarSign FIDO Card",
+    "authenticatorVersion": 1,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "software"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wireless",
+      "nfc"
     ]
   }
 ]
