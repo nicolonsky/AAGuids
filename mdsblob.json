@@ -7056,6 +7056,39 @@
     ]
   },
   {
+    "aaguid": "5e264d9d-28ef-4d34-95b4-5941e7a4faa8",
+    "description": "Ideem ZSM FIDO2 Authenticator",
+    "authenticatorVersion": 3,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "rsassa_pkcsv15_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 112,
+    "attachmentHint": [
+      "external"
+    ]
+  },
+  {
     "aaguid": "d2fbd093-ee62-488d-9dad-1e36389f8826",
     "description": "YubiKey 5 FIPS Series (RC Preview)",
     "authenticatorVersion": 329476,
