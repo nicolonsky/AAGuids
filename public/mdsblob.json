@@ -5164,6 +5164,48 @@
     ]
   },
   {
+    "aaguid": "b2c1a50b-dad8-4dc7-ba4d-0ce9597904bc",
+    "description": "YubiKey 5 Series with NFC - Enhanced PIN (Enterprise Profile)",
+    "authenticatorVersion": 329476,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 0
+      },
+      {
+        "major": 1,
+        "minor": 1
+      }
+    ],
+    "authenticationAlgorithms": [
+      "ed25519_eddsa_sha512_raw",
+      "secp256r1_ecdsa_sha256_raw",
+      "secp384r1_ecdsa_sha384_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wired",
+      "wireless",
+      "nfc"
+    ]
+  },
+  {
     "aaguid": null,
     "description": "Bluink Key U2F Authenticator",
     "authenticatorVersion": 2,
@@ -7203,6 +7245,48 @@
       "wireless",
       "nfc",
       "bluetooth"
+    ]
+  },
+  {
+    "aaguid": "662ef48a-95e2-4aaa-a6c1-5b9c40375824",
+    "description": "YubiKey 5 Series with NFC - Enhanced PIN",
+    "authenticatorVersion": 329476,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 0
+      },
+      {
+        "major": 1,
+        "minor": 1
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw",
+      "ed25519_eddsa_sha512_raw",
+      "secp384r1_ecdsa_sha384_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wired",
+      "wireless",
+      "nfc"
     ]
   },
   {
