@@ -140,6 +140,48 @@
     ]
   },
   {
+    "aaguid": "9eb7eabc-9db5-49a1-b6c3-555a802093f4",
+    "description": "YubiKey 5 Series with NFC 2093F4",
+    "authenticatorVersion": 329476,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 1
+      },
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp384r1_ecdsa_sha384_raw",
+      "secp256r1_ecdsa_sha256_raw",
+      "ed25519_eddsa_sha512_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wired",
+      "wireless",
+      "nfc"
+    ]
+  },
+  {
     "aaguid": "4d41190c-7beb-4a84-8018-adf265a6352d",
     "description": "Thales IDPrime FIDO Bio",
     "authenticatorVersion": 2,
@@ -5677,6 +5719,50 @@
     ]
   },
   {
+    "aaguid": null,
+    "description": "NEOWAVE Badgeo FIDO2 (CTAP 1.2)",
+    "authenticatorVersion": 2,
+    "protocolFamily": "u2f",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 0
+      },
+      {
+        "major": 1,
+        "minor": 2
+      },
+      {
+        "major": 1,
+        "minor": 1
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "ecc_x962_raw"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wired",
+      "wireless",
+      "nfc"
+    ]
+  },
+  {
     "aaguid": "d384db22-4d50-ebde-2eac-5765cf1e2a44",
     "description": "Excelsecu eSecu FIDO2 Fingerprint Security Key",
     "authenticatorVersion": 2,
@@ -8441,6 +8527,46 @@
     "attachmentHint": [
       "wireless",
       "bluetooth"
+    ]
+  },
+  {
+    "aaguid": "a7fc3f84-86a3-4da4-a3d7-eb6485a066d8",
+    "description": "NEOWAVE Badgeo FIDO2 (CTAP 2.1)",
+    "authenticatorVersion": 33619976,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 1
+      },
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "software"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wired",
+      "wireless",
+      "nfc"
     ]
   },
   {
@@ -11220,6 +11346,44 @@
     ]
   },
   {
+    "aaguid": "2c2aeed8-8174-4159-814b-486e92a261d0",
+    "description": "NEOWAVE WINKEO V2.0",
+    "authenticatorVersion": 33619976,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 0
+      },
+      {
+        "major": 1,
+        "minor": 1
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "software"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wired"
+    ]
+  },
+  {
     "aaguid": null,
     "description": "GoTrust Idem Key U2F Authenticator",
     "authenticatorVersion": 2,
@@ -12637,6 +12801,40 @@
       "wired",
       "wireless",
       "nfc"
+    ]
+  },
+  {
+    "aaguid": null,
+    "description": "NEOWAVE Winkeo FIDO2",
+    "authenticatorVersion": 2,
+    "protocolFamily": "u2f",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 2
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "ecc_x962_raw"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wired"
     ]
   },
   {
