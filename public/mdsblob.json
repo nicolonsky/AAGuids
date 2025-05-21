@@ -5877,7 +5877,7 @@
   },
   {
     "aaguid": "b93fd961-f2e6-462f-b122-82002247de78",
-    "description": "Android Authenticator with SafetyNet Attestation",
+    "description": "Android Authenticator",
     "authenticatorVersion": 1,
     "protocolFamily": "fido2",
     "schema": 3,
