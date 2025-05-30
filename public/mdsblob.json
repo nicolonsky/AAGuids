@@ -141,7 +141,7 @@
   },
   {
     "aaguid": "9eb7eabc-9db5-49a1-b6c3-555a802093f4",
-    "description": "YubiKey 5 Series with NFC 2093F4",
+    "description": "YubiKey 5 Series with NFC KVZR57",
     "authenticatorVersion": 329476,
     "protocolFamily": "fido2",
     "schema": 3,
