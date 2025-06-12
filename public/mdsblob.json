@@ -7376,6 +7376,43 @@
     ]
   },
   {
+    "aaguid": null,
+    "description": "YubiKey 5 Series with NFC - Enhanced PIN",
+    "authenticatorVersion": 329476,
+    "protocolFamily": "u2f",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 2
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "ecc_x962_raw"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element",
+      "remote_handle"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wired",
+      "wireless",
+      "nfc"
+    ]
+  },
+  {
     "aaguid": "aeb6569c-f8fb-4950-ac60-24ca2bbe2e52",
     "description": "HID Crescendo C2300",
     "authenticatorVersion": 30,
