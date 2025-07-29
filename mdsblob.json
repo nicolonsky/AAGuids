@@ -7820,6 +7820,42 @@
     ]
   },
   {
+    "aaguid": "9012593f-43e4-4461-a97a-d92777b55d74",
+    "description": "VinCSS FIDO2 Fingerprint",
+    "authenticatorVersion": 2,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full",
+      "basic_surrogate"
+    ],
+    "keyProtection": [
+      "hardware"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wired",
+      "nfc",
+      "bluetooth"
+    ]
+  },
+  {
     "aaguid": null,
     "description": "Touch ID or Face ID",
     "authenticatorVersion": 256,
