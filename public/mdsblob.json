@@ -3281,6 +3281,40 @@
     ]
   },
   {
+    "aaguid": "50cbf15a-238c-4457-8f16-812c43bf3c49",
+    "description": "Ensurity AUTH TouchPro",
+    "authenticatorVersion": 2,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 1
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wired"
+    ]
+  },
+  {
     "aaguid": "b90e7dc1-316e-4fee-a25a-56a666a670fe",
     "description": "YubiKey 5 Series with Lightning (Enterprise Profile)",
     "authenticatorVersion": 329473,
@@ -10611,6 +10645,40 @@
     "cryptoStrength": 128,
     "attachmentHint": [
       "nfc"
+    ]
+  },
+  {
+    "aaguid": "9eb85bb6-9625-4a72-815d-0487830ccab2",
+    "description": "Ensurity AUTH BioPro Desktop",
+    "authenticatorVersion": 2122,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 1
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wired"
     ]
   },
   {
