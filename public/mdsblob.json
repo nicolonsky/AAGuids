@@ -11272,6 +11272,39 @@
     ]
   },
   {
+    "aaguid": "cc45f64e-52a2-451b-831a-4edd8022a202",
+    "description": "ToothPic Passkey Provider",
+    "authenticatorVersion": 1,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 1
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_der"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "ecc_x962_raw"
+    ],
+    "attestationTypes": [
+      "basic_surrogate"
+    ],
+    "keyProtection": [
+      "hardware"
+    ],
+    "matcherProtection": [
+      "tee"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wireless"
+    ]
+  },
+  {
     "aaguid": "0bb43545-fd2c-4185-87dd-feb0b2916ace",
     "description": "Security Key NFC by Yubico - Enterprise Edition",
     "authenticatorVersion": 328707,
