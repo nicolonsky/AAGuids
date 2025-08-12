@@ -1477,6 +1477,44 @@
     ]
   },
   {
+    "aaguid": "30b5035e-d297-4ff7-020b-addc96ba6a98",
+    "description": "OneSpan DIGIPASS FX7",
+    "authenticatorVersion": 1,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 0
+      },
+      {
+        "major": 1,
+        "minor": 1
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "software"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wired"
+    ]
+  },
+  {
     "aaguid": "454e5346-4944-4ffd-6c93-8e9267193e9a",
     "description": "Ensurity ThinC",
     "authenticatorVersion": 2,
