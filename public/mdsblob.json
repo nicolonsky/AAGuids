@@ -8010,6 +8010,46 @@
     ]
   },
   {
+    "aaguid": "30b5035e-d297-4ff1-020b-addc96ba6a98",
+    "description": "OneSpan DIGIPASS FX1-C",
+    "authenticatorVersion": 1,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 0
+      },
+      {
+        "major": 1,
+        "minor": 1
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "software"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wired",
+      "wireless",
+      "nfc"
+    ]
+  },
+  {
     "aaguid": "20ac7a17-c814-4833-93fe-539f0d5e3389",
     "description": "YubiKey 5 Series (Enterprise Profile)",
     "authenticatorVersion": 329473,
@@ -11875,7 +11915,7 @@
   {
     "aaguid": "504d7149-4e4c-3841-4555-55445a677357",
     "description": "WiSECURE AuthTron USB FIDO2 Authenticator",
-    "authenticatorVersion": 2,
+    "authenticatorVersion": 3,
     "protocolFamily": "fido2",
     "schema": 3,
     "upv": [
