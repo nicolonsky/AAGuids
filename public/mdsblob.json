@@ -4779,6 +4779,43 @@
     ]
   },
   {
+    "aaguid": "def8ab1a-9f91-44f1-a103-088d8dc7d681",
+    "description": "IDEMIA SOLVO Fly 80 R3 FIDO Card e",
+    "authenticatorVersion": 1107448831,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 1
+      },
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "nfc"
+    ]
+  },
+  {
     "aaguid": null,
     "description": "SI0X FIDO CL WRIST v1.0",
     "authenticatorVersion": 1,
@@ -10958,6 +10995,47 @@
     ]
   },
   {
+    "aaguid": null,
+    "description": "IDEMIA SOLVO Fly 80 R3 FIDO Card c",
+    "authenticatorVersion": 1107448831,
+    "protocolFamily": "u2f",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 0
+      },
+      {
+        "major": 1,
+        "minor": 1
+      },
+      {
+        "major": 1,
+        "minor": 2
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "ecc_x962_raw"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "nfc"
+    ]
+  },
+  {
     "aaguid": "30b5035e-d297-4ff7-010b-addc96ba6a98",
     "description": "OneSpan DIGIPASS FX7-B",
     "authenticatorVersion": 1,
@@ -11909,6 +11987,47 @@
       "external",
       "wired",
       "wireless",
+      "nfc"
+    ]
+  },
+  {
+    "aaguid": null,
+    "description": "IDEMIA SOLVO Fly 80 R3 FIDO Card e",
+    "authenticatorVersion": 1107448831,
+    "protocolFamily": "u2f",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 2
+      },
+      {
+        "major": 1,
+        "minor": 1
+      },
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "ecc_x962_raw"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
       "nfc"
     ]
   },
@@ -13890,6 +14009,43 @@
     "cryptoStrength": 256,
     "attachmentHint": [
       "external"
+    ]
+  },
+  {
+    "aaguid": "dda9aa35-aaf1-4d3c-b6db-7902fd7dbbbf",
+    "description": "IDEMIA SOLVO Fly 80 R3 FIDO Card c",
+    "authenticatorVersion": 1107448831,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 1
+      },
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "nfc"
     ]
   },
   {
