@@ -9770,6 +9770,39 @@
     ]
   },
   {
+    "aaguid": "bb66c294-de08-47e4-b7aa-d12c2cd3fb20",
+    "description": "Mettlesemi Vishwaas Hawk Authenticator using FIDO2",
+    "authenticatorVersion": 1,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "wired"
+    ]
+  },
+  {
     "aaguid": "c4ddaf11-3032-4e77-b3b9-3a340369b9ad",
     "description": "HID Crescendo Fusion",
     "authenticatorVersion": 262144,
@@ -12596,6 +12629,39 @@
       "wired",
       "wireless",
       "nfc"
+    ]
+  },
+  {
+    "aaguid": "489ff376-b48d-6640-bb69-782a860ca795",
+    "description": "Mettlesemi Vishwaas Eagle Authenticator using FIDO2",
+    "authenticatorVersion": 1,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "wired"
     ]
   },
   {
