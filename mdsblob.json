@@ -5952,6 +5952,44 @@
     ]
   },
   {
+    "aaguid": "49a15c1c-3f63-3f51-23a7-b9e00096edd1",
+    "description": "IDEX CTAP2.1 Biometric, No pin",
+    "authenticatorVersion": 2507,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 0
+      },
+      {
+        "major": 1,
+        "minor": 1
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "nfc"
+    ]
+  },
+  {
     "aaguid": "f4c63eff-d26c-4248-801c-3736c7eaa93a",
     "description": "FIDO KeyPass S3",
     "authenticatorVersion": 3,
