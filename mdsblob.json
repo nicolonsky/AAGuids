@@ -2512,6 +2512,45 @@
     ]
   },
   {
+    "aaguid": "8eec9bf9-486c-46da-9a67-1fbb4f66b9ed",
+    "description": "HID Crescendo 4000 FIPS",
+    "authenticatorVersion": 262144,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 1
+      },
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wireless",
+      "nfc"
+    ]
+  },
+  {
     "aaguid": "4c50ff10-1057-4fc6-b8ed-43a529530c3c",
     "description": "ImproveID Authenticator",
     "authenticatorVersion": 45,
