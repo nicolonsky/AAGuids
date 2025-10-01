@@ -5327,6 +5327,44 @@
     ]
   },
   {
+    "aaguid": "019614a3-2703-7e35-a453-285fd06c5d24",
+    "description": "ATLKey Authenticator",
+    "authenticatorVersion": 1,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 1
+      },
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw",
+      "ed25519_eddsa_sha512_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wired"
+    ]
+  },
+  {
     "aaguid": null,
     "description": "RSA DS100",
     "authenticatorVersion": 1,
