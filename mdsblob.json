@@ -8781,6 +8781,43 @@
     ]
   },
   {
+    "aaguid": null,
+    "description": "YubiKey 5 CCN Series with NFC (Enterprise Profile)",
+    "authenticatorVersion": 329476,
+    "protocolFamily": "u2f",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 2
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "ecc_x962_raw"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element",
+      "remote_handle"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wired",
+      "wireless",
+      "nfc"
+    ]
+  },
+  {
     "aaguid": "83c47309-aabb-4108-8470-8be838b573cb",
     "description": "YubiKey Bio Series - FIDO Edition (Enterprise Profile)",
     "authenticatorVersion": 328965,
@@ -11443,6 +11480,43 @@
     ]
   },
   {
+    "aaguid": null,
+    "description": "YubiKey 5 CCN Series with NFC",
+    "authenticatorVersion": 329476,
+    "protocolFamily": "u2f",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 2
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "ecc_x962_raw"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element",
+      "remote_handle"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wired",
+      "wireless",
+      "nfc"
+    ]
+  },
+  {
     "aaguid": "905b4cb4-ed6f-4da9-92fc-45e0d4e9b5c7",
     "description": "YubiKey 5 FIPS Series (Enterprise Profile)",
     "authenticatorVersion": 329476,
@@ -12094,6 +12168,48 @@
     "attachmentHint": [
       "external",
       "wired"
+    ]
+  },
+  {
+    "aaguid": "4fc84f16-2545-4e53-b8fc-7bf4d7282a10",
+    "description": "YubiKey 5 CCN Series with NFC (Enterprise Profile)",
+    "authenticatorVersion": 329476,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 1
+      },
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "ed25519_eddsa_sha512_raw",
+      "secp256r1_ecdsa_sha256_raw",
+      "secp384r1_ecdsa_sha384_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wired",
+      "wireless",
+      "nfc"
     ]
   },
   {
@@ -14330,6 +14446,48 @@
     "attachmentHint": [
       "external",
       "wired"
+    ]
+  },
+  {
+    "aaguid": "3aa78eb1-ddd8-46a8-a821-8f8ec57a7bd5",
+    "description": "YubiKey 5 CCN Series with NFC",
+    "authenticatorVersion": 329476,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 0
+      },
+      {
+        "major": 1,
+        "minor": 1
+      }
+    ],
+    "authenticationAlgorithms": [
+      "ed25519_eddsa_sha512_raw",
+      "secp256r1_ecdsa_sha256_raw",
+      "secp384r1_ecdsa_sha384_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wired",
+      "wireless",
+      "nfc"
     ]
   },
   {
