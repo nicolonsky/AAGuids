@@ -9051,6 +9051,44 @@
     ]
   },
   {
+    "aaguid": "4e2ddbc2-2687-4709-8551-cb66c9776bfe",
+    "description": "SECORA ID V2 FIDO2.1 L1",
+    "authenticatorVersion": 1,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 1
+      },
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "nfc"
+    ]
+  },
+  {
     "aaguid": "be727034-574a-f799-5c76-0929e0430973",
     "description": "Crayonic KeyVault K1 (USB-NFC-BLE FIDO2 Authenticator)",
     "authenticatorVersion": 1,
@@ -13664,6 +13702,45 @@
       "secp384r1_ecdsa_sha384_raw",
       "ed25519_eddsa_sha512_raw",
       "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wired"
+    ]
+  },
+  {
+    "aaguid": "f573f209-b7fb-b261-671a-d7cf624cc812",
+    "description": "Excelsecu eSecu FIDO2 PRO+ Security Key",
+    "authenticatorVersion": 256,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 0
+      },
+      {
+        "major": 1,
+        "minor": 1
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw",
+      "ed25519_eddsa_sha512_raw"
     ],
     "publicKeyAlgAndEncodings": [
       "cose"
