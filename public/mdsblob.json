@@ -14562,6 +14562,39 @@
     ]
   },
   {
+    "aaguid": "bb878d7b-cf54-4784-b390-357030497043",
+    "description": "TruU FIDO2 Authenticator",
+    "authenticatorVersion": 1,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_surrogate"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "software"
+    ],
+    "cryptoStrength": 256,
+    "attachmentHint": [
+      "internal"
+    ]
+  },
+  {
     "aaguid": "d41f5a69-b817-4144-a13c-9ebd6d9254d6",
     "description": "ATKey.Card CTAP2.0",
     "authenticatorVersion": 3000039,
