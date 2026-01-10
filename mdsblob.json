@@ -11269,6 +11269,45 @@
     ]
   },
   {
+    "aaguid": "560a780cb6ae4f03b110082f856425b4",
+    "description": "KQC QuKey Bio FIDO2 Authenticator",
+    "authenticatorVersion": 2,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 0
+      },
+      {
+        "major": 1,
+        "minor": 1
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "ecc_x962_raw",
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full",
+      "basic_surrogate"
+    ],
+    "keyProtection": [
+      "hardware"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wired"
+    ]
+  },
+  {
     "aaguid": "1ac71f64-468d-4fe0-bef1-0e5f2f551f18",
     "description": "YubiKey 5 Series with NFC (Enterprise Profile)",
     "authenticatorVersion": 329473,
