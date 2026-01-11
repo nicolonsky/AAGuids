@@ -3476,6 +3476,45 @@
     ]
   },
   {
+    "aaguid": "09619fbf-d75e-4a62-be1d-fe4d240864ae",
+    "description": "VeriMark(TM) Guard 2.1 Fingerprint Security Key",
+    "authenticatorVersion": 1,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 1
+      },
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "ecc_x962_raw",
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 112,
+    "attachmentHint": [
+      "external",
+      "wired"
+    ]
+  },
+  {
     "aaguid": "50cbf15a-238c-4457-8f16-812c43bf3c49",
     "description": "Ensurity AUTH TouchPro",
     "authenticatorVersion": 2,
@@ -11828,6 +11867,41 @@
     "cryptoStrength": null,
     "attachmentHint": [
       "internal"
+    ]
+  },
+  {
+    "aaguid": null,
+    "description": "VeriMark(TM) Guard 2.1 Fingerprint Security Key",
+    "authenticatorVersion": 2,
+    "protocolFamily": "u2f",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 2
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "ecc_x962_raw"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element",
+      "remote_handle"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 112,
+    "attachmentHint": [
+      "external",
+      "wired"
     ]
   },
   {
