@@ -11308,7 +11308,7 @@
     ]
   },
   {
-    "aaguid": "560a780cb6ae4f03b110082f856425b4",
+    "aaguid": "560a780c-b6ae-4f03-b110-082f856425b4",
     "description": "KQC QuKey Bio FIDO2 Authenticator",
     "authenticatorVersion": 2,
     "protocolFamily": "fido2",
