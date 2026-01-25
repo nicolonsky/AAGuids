@@ -14433,6 +14433,46 @@
     ]
   },
   {
+    "aaguid": "0f00cc22-4640-41e7-9585-384ec73ffe9b",
+    "description": "Taglio CTAP2.1 BIO",
+    "authenticatorVersion": 2507,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 0
+      },
+      {
+        "major": 1,
+        "minor": 1
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wired",
+      "wireless",
+      "nfc"
+    ]
+  },
+  {
     "aaguid": "ff4dac45-ede8-4ec2-aced-cf66103f4335",
     "description": "YubiKey 5 Series",
     "authenticatorVersion": 329476,
