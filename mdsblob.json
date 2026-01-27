@@ -2708,7 +2708,7 @@
   },
   {
     "aaguid": "c611b55c-77b2-4527-8082-590e931b2f08",
-    "description": "Idem Key (Consumer profile)",
+    "description": "GoTrust Idem Key (Consumer profile)",
     "authenticatorVersion": 262145,
     "protocolFamily": "fido2",
     "schema": 3,
