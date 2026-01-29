@@ -10157,6 +10157,44 @@
     ]
   },
   {
+    "aaguid": "33d6d7d0-279f-4ef3-96b3-2d3282f4bde6",
+    "description": "Thales eToken Fusion BIO Enterprise",
+    "authenticatorVersion": 2,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 1
+      },
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wired"
+    ]
+  },
+  {
     "aaguid": "8d4378b0-725d-4432-b3c2-01fcdaf46286",
     "description": "VeridiumID Passkey Android SDK",
     "authenticatorVersion": 1,
@@ -14931,6 +14969,45 @@
     ]
   },
   {
+    "aaguid": "b113a455-cfb6-4c17-8cba-cd952feb7d48",
+    "description": "eToken FIDO NFC",
+    "authenticatorVersion": 6,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 0
+      },
+      {
+        "major": 1,
+        "minor": 1
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wireless",
+      "nfc"
+    ]
+  },
+  {
     "aaguid": "95442b2e-f15e-4def-b270-efb106facb4e",
     "description": "eWBM eFA310 FIDO2 Authenticator",
     "authenticatorVersion": 1,
@@ -15339,6 +15416,45 @@
     ],
     "publicKeyAlgAndEncodings": [
       "ecc_x962_raw"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wireless",
+      "nfc"
+    ]
+  },
+  {
+    "aaguid": "a6c5f5d8-2ad0-48b6-8257-e502c8970931",
+    "description": "eToken FIDO NFC Enterprise",
+    "authenticatorVersion": 6,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 0
+      },
+      {
+        "major": 1,
+        "minor": 1
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
     ],
     "attestationTypes": [
       "basic_full"
