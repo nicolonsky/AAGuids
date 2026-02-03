@@ -6228,7 +6228,7 @@
   },
   {
     "aaguid": "49a15c1c-3f63-3f51-23a7-b9e00096edd1",
-    "description": "IDEX CTAP2.1 Biometric, No pin",
+    "description": "IDEX CTAP2.1 Biometrics",
     "authenticatorVersion": 2507,
     "protocolFamily": "fido2",
     "schema": 3,
@@ -6261,6 +6261,8 @@
     "cryptoStrength": 128,
     "attachmentHint": [
       "external",
+      "wired",
+      "wireless",
       "nfc"
     ]
   },
