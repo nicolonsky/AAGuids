@@ -817,7 +817,7 @@
   },
   {
     "aaguid": "39a5647e-1853-446c-a1f6-a79bae9f5bc7",
-    "description": "IDmelon Android Authenticator",
+    "description": "IDmelon Key",
     "authenticatorVersion": 2,
     "protocolFamily": "fido2",
     "schema": 3,
@@ -5419,7 +5419,7 @@
   },
   {
     "aaguid": "820d89ed-d65a-409e-85cb-f73f0578f82a",
-    "description": "IDmelon iOS Authenticator",
+    "description": "IDmelon Authenticator",
     "authenticatorVersion": 2,
     "protocolFamily": "fido2",
     "schema": 3,
