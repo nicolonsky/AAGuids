@@ -8326,7 +8326,7 @@
   {
     "aaguid": "58276709-bb4b-4bb3-baf1-60eea99282a7",
     "description": "YubiKey Bio Series - Multi-protocol Edition 1VDJSN",
-    "authenticatorVersion": 329474,
+    "authenticatorVersion": 329476,
     "protocolFamily": "fido2",
     "schema": 3,
     "upv": [
