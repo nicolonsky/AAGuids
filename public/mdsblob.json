@@ -5264,6 +5264,45 @@
     ]
   },
   {
+    "aaguid": "0b8b05a4-ebd4-4b0b-8f5f-33d7b6e606ab",
+    "description": "HID Crescendo 4000",
+    "authenticatorVersion": 262656,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 1
+      },
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wireless",
+      "nfc"
+    ]
+  },
+  {
     "aaguid": null,
     "description": "Feitian ePass FIDO-NFC(CTAP2.1, CTAP2.0, U2F)",
     "authenticatorVersion": 1,
@@ -15479,6 +15518,46 @@
     "aaguid": "e400ef8c-711d-4692-af46-7f2cf7da23ad",
     "description": "Swissbit iShield Key 2 Enterprise",
     "authenticatorVersion": 1,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 1
+      },
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wired",
+      "wireless",
+      "nfc"
+    ]
+  },
+  {
+    "aaguid": "87c13177-85d6-40ac-8c61-fe7ab3de9dfb",
+    "description": "HID Crescendo Key V3",
+    "authenticatorVersion": 262656,
     "protocolFamily": "fido2",
     "schema": 3,
     "upv": [
