@@ -8481,6 +8481,45 @@
     ]
   },
   {
+    "aaguid": "04a8fcf2-19c1-457b-911e-69219f17583f",
+    "description": "Thales PAY GFCX13 authenticator",
+    "authenticatorVersion": 5,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 1
+      },
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wireless",
+      "nfc"
+    ]
+  },
+  {
     "aaguid": "20ac7a17-c814-4833-93fe-539f0d5e3389",
     "description": "YubiKey 5 Series (Enterprise Profile)",
     "authenticatorVersion": 329473,
@@ -13845,6 +13884,44 @@
     "cryptoStrength": 128,
     "attachmentHint": [
       "external",
+      "wireless",
+      "nfc"
+    ]
+  },
+  {
+    "aaguid": "b3315166-f36c-b05f-fea8-66a3dfdad171",
+    "description": "Ledger Nano Gen5 FIDO2 Authenticator",
+    "authenticatorVersion": 10704,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "ed25519_eddsa_sha512_raw",
+      "secp256k1_ecdsa_sha256_raw",
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wired",
       "wireless",
       "nfc"
     ]
