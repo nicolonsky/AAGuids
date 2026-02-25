@@ -71,6 +71,38 @@
     ]
   },
   {
+    "aaguid": "e8b7f4a2-c3d5-e6f7-890a-b1c2d3e4f567",
+    "description": "Sherlocked Passkey Provider (iOS) - Stashword Inc.",
+    "authenticatorVersion": 1,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 1
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_surrogate"
+    ],
+    "keyProtection": [
+      "software"
+    ],
+    "matcherProtection": [
+      "software"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "internal"
+    ]
+  },
+  {
     "aaguid": null,
     "description": "YubiKey 5 Series",
     "authenticatorVersion": 329476,
