@@ -3804,7 +3804,10 @@
     ],
     "cryptoStrength": 128,
     "attachmentHint": [
-      "external"
+      "external",
+      "wired",
+      "wireless",
+      "nfc"
     ]
   },
   {
