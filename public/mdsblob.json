@@ -3476,6 +3476,44 @@
     ]
   },
   {
+    "aaguid": "9a272558-5cfa-4424-be37-65509677b77d",
+    "description": "SECORA ID Key S USB by Infineon Consumer Edition",
+    "authenticatorVersion": 1,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 0
+      },
+      {
+        "major": 1,
+        "minor": 1
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "nfc"
+    ]
+  },
+  {
     "aaguid": null,
     "description": "i-Sprint Android FingerPrint UAF Authenticator",
     "authenticatorVersion": 1,
@@ -9642,6 +9680,43 @@
     ]
   },
   {
+    "aaguid": "3e9db280-256a-4e17-b08e-19d79e9be166",
+    "description": "SECORA ID V2 by Infineon Pay Edition",
+    "authenticatorVersion": 1,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 0
+      },
+      {
+        "major": 1,
+        "minor": 1
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "nfc"
+    ]
+  },
+  {
     "aaguid": "a7fc3f84-86a3-4da4-a3d7-eb6485a066d8",
     "description": "NEOWAVE Badgeo FIDO2 (CTAP 2.1)",
     "authenticatorVersion": 33619976,
@@ -14143,6 +14218,43 @@
     "attachmentHint": [
       "external",
       "wired"
+    ]
+  },
+  {
+    "aaguid": "005b20e1-f146-4b87-8f3a-36848ff60ea6",
+    "description": "SECORA ID V2 by Infineon Pay Edition M",
+    "authenticatorVersion": 1,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 0
+      },
+      {
+        "major": 1,
+        "minor": 1
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "nfc"
     ]
   },
   {
