@@ -5,7 +5,7 @@ import { UUID } from 'crypto';
 import NextPlanIcon from '@mui/icons-material/NextPlan';
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 
-const unofficialUri = 'https://raw.githubusercontent.com/nicolonsky/ITDR/main/Watchlists/aaguids.json';
+const unofficialUri = 'https://raw.githubusercontent.com/nicolonsky/AAGuids/main/public/combined_aaguid.json';
 
 const fidoMdsColumns: ColumnInfo[] = [
   { field: 'description', headerName: 'Name', flex: 1 },
@@ -93,7 +93,7 @@ function App() {
 
       {showUnofficial ?
         <Typography>
-          This list is based on the <Link href="https://github.com/passkeydeveloper/passkey-authenticator-aaguids">passkey-authenticator-aaguids repository</Link>.
+          This list is served from <Link href={unofficialUri}>my AAGuid repository</Link> and is based on the <Link href="https://github.com/passkeydeveloper/passkey-authenticator-aaguids">passkeydeveloper</Link> repository.
         </Typography> :
         <Typography>
           This list is based on the <Link href="https://fidoalliance.org/metadata/">FIDO Alliance Metadata Service</Link>.
