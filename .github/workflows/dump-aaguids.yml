@@ -15,7 +15,7 @@ jobs:
     name: Dump latest AAGUIDs
     steps:
       - uses: actions/checkout@v3
-      - name: Dump AAGUIDs
+      - name: Dump AAGUIDs (MDS)
         run: |
           $metaDataBlobUri = 'https://mds.fidoalliance.org/'
           $targetPath = 'public/mdsblob.json'
@@ -87,6 +87,19 @@ jobs:
           REACT_APP_TIME_GENERATED = $(Get-Date -Format 'yyyy-MM-dd')
           REACT_APP_NEXT_UPDATE = $($jwt.nextUpdate)
           "@ | Set-Content .env -Encoding utf8 -Force    
+        shell: pwsh
+      - name: Dump AAGUIDs (combined_aaguid)
+        run: |
+          $uri = 'https://raw.githubusercontent.com/passkeydeveloper/passkey-authenticator-aaguids/refs/heads/main/combined_aaguid.json'
+          $targetPath = 'public/combined_aaguid.json'
+          $combinedBlob = Invoke-RestMethod -Uri $uri
+          $aaguids = $combinedBlob.psobject.properties | ForEach-Object { 
+              [PSCustomObject]@{
+                  AAGuid = $_.Name
+                  Name = $_.Value.name
+              }
+          } | Sort-Object -Property AAGuid
+          $aaguids | ConvertTo-Json -Depth 5 | Set-Content $targetPath -Encoding utf8 -Force  
         shell: pwsh
       - name: Commit and push changes
         run: |
