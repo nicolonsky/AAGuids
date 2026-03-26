@@ -1310,5 +1310,13 @@
   {
     "AAGuid": "ff4dac45-ede8-4ec2-aced-cf66103f4335",
     "Name": "YubiKey 5 Series"
+  },
+  {
+    "AAGuid": "de1e552d-db1d-4423-a619-566b625cdc84",
+    "Name": "Microsoft Authenticator for Android"
+  },
+  {
+    "AAGuid": "90a3ccdf-635c-4729-a248-9b709135078f",
+    "Name": "Microsoft Authenticator for iOS"
   }
 ]
