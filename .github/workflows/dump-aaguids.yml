@@ -99,6 +99,16 @@ jobs:
                   Name = $_.Value.name
               }
           } | Sort-Object -Property AAGuid
+
+          # Manually Add Microsoft Authenticator
+          $aaguids += [PSCustomObject]@{
+              AAGuid = 'de1e552d-db1d-4423-a619-566b625cdc84'
+              Name   = 'Microsoft Authenticator for Android'
+          }
+          $aaguids += [PSCustomObject]@{
+              AAGuid = '90a3ccdf-635c-4729-a248-9b709135078f'
+              Name   = 'Microsoft Authenticator for iOS'
+          }
           $aaguids | ConvertTo-Json -Depth 5 | Set-Content $targetPath -Encoding utf8 -Force  
         shell: pwsh
       - name: Commit and push changes
