@@ -1,6 +1,6 @@
-import { Component, useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { DataGrid, GridToolbar } from '@mui/x-data-grid';
-import { AppBar, Avatar, Box, Button, CardActions, createTheme, FormControlLabel, Grid, Icon, IconButton, Link, List, ListItem, ListItemAvatar, ListItemText, Stack, Switch, ThemeProvider, Toolbar, Typography } from '@mui/material';
+import { AppBar, Avatar, Box, Button, createTheme, FormControlLabel, Grid, IconButton, Link, List, ListItem, ListItemAvatar, ListItemText, Stack, Switch, ThemeProvider, Toolbar, Tooltip, Typography } from '@mui/material';
 import { UUID } from 'crypto';
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 import NextPlanIcon from '@mui/icons-material/NextPlan';
@@ -10,9 +10,9 @@ import CardContent from '@mui/material/CardContent';
 import React from 'react';
 import InfoOutlineIcon from '@mui/icons-material/InfoOutlined';
 
-const unofficialUri = 'https://raw.githubusercontent.com/nicolonsky/AAGuids/main/public/combined_aaguid.json';
 const passkeyInfo = 'https://fidoalliance.org/passkeys/';
-const sampleQueryUri = 'https://security.microsoft.com/v2/advanced-hunting?query=H4sIABfYxmkAA12PywqCQBSG_3VP4c6EsL3QolW7XiAiRpvUSI1ppIIevm8Gg5DDXM5_ORerl7ysnHoZ3XTm9pxES22JnUa1oAXIA8aR9aq1It-j6_DOuYz8oFQNmNcdrtCaMEQ91ctRtqo00NOgGKcpcrAGbWA6lbGiRX-aua94BrhUR7o9QT2-MPUF3OENe2x4Rzp4-J8j00KfOHHQeX6l3n_bJHGeSl8h-gH_GgEAAA&timeRangeId=day';
+const sampleQueryUnofficialUri = 'https://security.microsoft.com/v2/advanced-hunting?query=H4sIABfYxmkAA12PywqCQBSG_3VP4c6EsL3QolW7XiAiRpvUSI1ppIIevm8Gg5DDXM5_ORerl7ysnHoZ3XTm9pxES22JnUa1oAXIA8aR9aq1It-j6_DOuYz8oFQNmNcdrtCaMEQ91ctRtqo00NOgGKcpcrAGbWA6lbGiRX-aua94BrhUR7o9QT2-MPUF3OENe2x4Rzp4-J8j00KfOHHQeX6l3n_bJHGeSl8h-gH_GgEAAA&timeRangeId=day';
+const sampleQueryOfficialUri = 'https://security.microsoft.com/v2/advanced-hunting?query=H4sIAFz9xmkAA51UTUvDQBCdc39Fb7VQ27vgofiBUIRC1Yt4iEmsqc0HTWIN-ON9O7PRCU02rYQkJPvem4_dNyF9UUEh7Sghj7YU4FngHtIZDfCUy8O1ppIirF_gOwdmh68EfycKF0ApJ5_XMmAiSoFxMTyoFvQOXsJ4n-OnwD5xVrnSiBij2RkQKeN93Fu6BTsGbkuVM6rJ0cSMgW9XLqH9yWsBtBKr6x-Ru-Q7Rw5rriNiTIyYbrUMaq9gmf8LaFZWYw58QDd4mhoDW02fmsmk4N0oVFYPwGf8183-4PhL290Qq3ovu3kxx5Le7v7BNyen4pOT0or3LuRqTQfb90nq9DhmbHfizuIOYw1ojPuZRkAbXsadmOHSJ3wKRmRPlAdEaR0y5SgzaAX4a_YqxXNKG3yZ2kb0AvW93XHjoDc-AdKVS7xLcEwnaobJ5vv3HG9sp85t3R5X9FfrXOU4hF7Tl7or160-FE67RyeNOMd5ss7hOLSOsHT4VlRdztZKK-VkYWpva-QjO1ow4u7-mru97Kq9m9XswWl-r_tyGqtZo3sm1DW5UVpx0TknRKt7jmiV-96pIWr900WrXjlmiei5ps1h39pnjO5ZO0IcvrdZhzzFcqxI7jHHrzArtLvH9AOUn8KMmAcAAA&timeRangeId=day';
 
 const bull = (
   <Box
@@ -65,29 +65,20 @@ type ColumnInfo = {
 function App() {
 
   const [data, setData] = useState<AAGuidInfo[]>([]);
-  const [showUnofficial, setShowUnofficial] = useState(false);
-  const [columns, setColumns] = useState<ColumnInfo[]>(fidoMdsColumns);
+  const [showOfficial, setShowOfficial] = useState(false);
+  const [columns, setColumns] = useState<ColumnInfo[]>(passkeyColumns);
 
-  const toggleShowUnofficial = (showUnofficial: boolean) => {
-    setShowUnofficial(showUnofficial);
-    if (showUnofficial) {
-      setColumns(passkeyColumns);
-    } else {
+  const toggleShowOfficial = (showOfficial: boolean) => {
+    setShowOfficial(showOfficial);
+    if (showOfficial) {
       setColumns(fidoMdsColumns);
+    } else {
+      setColumns(passkeyColumns);
     }
   }
 
   useEffect(() => {
-    if (showUnofficial) {
-      fetch(unofficialUri)
-        .then(response => response.json())
-        .then(data => data
-          .map((entry: any, id: number) => ({ aaguid: entry.AAGuid, description: entry.Name, id: id }))
-        )
-        .then((filteredData: AAGuidInfo[]) => setData(filteredData))
-        .catch(console.error);
-
-    } else {
+    if (showOfficial) {
       fetch('/mdsblob.json')
         .then(response => response.json())
         .then(data => data
@@ -96,33 +87,58 @@ function App() {
         )
         .then((filteredData: AAGuidInfo[]) => setData(filteredData))
         .catch(console.error);
-    }
 
-  }, [showUnofficial])
+    } else {
+      fetch('/combined_aaguid.json')
+
+        .then(response => response.json())
+        .then(data => data
+          .map((entry: any, id: number) => ({ aaguid: entry.AAGuid, description: entry.Name, id: id }))
+        )
+        .then((filteredData: AAGuidInfo[]) => setData(filteredData))
+        .catch(console.error);
+    }
+  }, [showOfficial])
 
   return (
     <div>
-     <Stack spacing={2} sx={{ flexGrow: 1 }}>
+      <Stack spacing={2} sx={{ flexGrow: 1 }}>
         <ThemeProvider theme={darkTheme}>
-        <AppBar position="fixed">
-          <Toolbar>
-            <IconButton
-              size="large"
-              edge="start"
-              color="inherit"
-              aria-label="menu"
-              sx={{ mr: 2 }}
-            >
-            </IconButton>
-            <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-              AAGUIDs
-            </Typography>
-            <Button color="inherit" LinkComponent={Link} href="https://github.com/nicolonsky/AAGUIDs" target='_blank'><GitHubIcon /></Button>
-            <Button color="inherit" LinkComponent={Link} href={sampleQueryUri} target='_blank'>
-              <img src="/xdr.ico" alt="Defender XDR" style={{ width: 22, height: 22, verticalAlign: 'middle' }} />
-            </Button>
-          </Toolbar>
-        </AppBar>
+          <AppBar position="fixed">
+            <Toolbar>
+              <IconButton
+                size="large"
+                edge="start"
+                color="inherit"
+                aria-label="menu"
+                sx={{ mr: 2 }}
+              >
+              </IconButton>
+              <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+                AAGUIDs
+              </Typography>
+              <Tooltip title="Display only FIDO Alliance Certified Passkeys">
+                <FormControlLabel
+                  control={<Switch />}
+                  label="FIDO Certified Passkeys"
+                  onChange={(_event: React.SyntheticEvent<Element, Event>, checked: boolean) => {
+                    toggleShowOfficial(checked);
+                  }}
+                />
+              </Tooltip>
+              <Tooltip title="GitHub Repository">
+                <Button color="inherit" LinkComponent={Link} href="https://github.com/nicolonsky/AAGUIDs" target='_blank'><GitHubIcon /></Button>
+              </Tooltip>
+              <Tooltip title="Use in Advanced Hunting">
+                <Button color="inherit" LinkComponent={Link} href={showOfficial ? sampleQueryOfficialUri : sampleQueryUnofficialUri} target='_blank'>
+                  <img src="/xdr.ico" alt="Defender XDR" style={{ width: 22, height: 22, verticalAlign: 'middle' }} />
+                </Button>
+              </Tooltip>
+              <Tooltip title="Learn about Passkeys">
+                <Button color="inherit" LinkComponent={Link} href={passkeyInfo}><InfoOutlineIcon /></Button>
+              </Tooltip>
+            </Toolbar>
+          </AppBar>
         </ThemeProvider>
       </Stack>
 
@@ -135,8 +151,8 @@ function App() {
         width='100%'
         sx={{ mt: 5 }}
       >
-        <Box sx={{ minWidth: 275, maxWidth: '50%', marginTop: 4 }}>
-          <Card variant="elevation">
+        <Box sx={{ width: '50%', marginTop: 4, mb: 5 }}>
+          <Card variant="elevation" elevation={4}>
             <CardContent>
               <Typography variant="h5" component="div">
                 pæs{bull}ki
@@ -147,19 +163,8 @@ function App() {
               </Typography>
               <Typography gutterBottom sx={{ color: 'text.secondary', fontSize: 14 }}>
                 <strong>AAGUIDs</strong> are unique identifiers assigned to FIDO authenticators (including passkeys and security keys) and are used to identify authenticator models for attestation and metadata purposes.
-              </Typography> 
+              </Typography>
             </CardContent>
-            <CardActions>
-              <FormControlLabel
-                control={<Switch />}
-                label="Display unofficial passkey blob"
-                onChange={(_event: React.SyntheticEvent<Element, Event>, checked: boolean) => {
-                  toggleShowUnofficial(checked);
-                }}
-              />
-              <Button size="small"><Link href={passkeyInfo}>Learn More about Passkeys</Link></Button>
-            </CardActions>
-
             <List component={Stack} direction="row">
               <ListItem>
                 <ListItemAvatar>
@@ -171,9 +176,9 @@ function App() {
                   whiteSpace: 'nowrap',
                   textOverflow: 'ellipsis',
                 }}
-                  primary='Source of this list' secondary={
-                    showUnofficial ? <Link href="https://github.com/passkeydeveloper/passkey-authenticator-aaguids">Passkeys Developer Resources
-</Link> : <Link href="https://fidoalliance.org/metadata/">FIDO Alliance Metadata Service</Link>
+                  secondary='List source' primary={
+                    showOfficial ? <Link href="https://github.com/passkeydeveloper/passkey-authenticator-aaguids">Passkeys Developer Resources
+                    </Link> : <Link href="https://fidoalliance.org/metadata/">FIDO Alliance Metadata Service</Link>
                   } />
               </ListItem>
               <ListItem>
@@ -203,15 +208,16 @@ function App() {
           </Card>
         </Box>
 
-        <Grid item xl style={{ width: '95%' }}>
+        <Grid item xl xs={10} sx={{ width: '90%' }}>
           <DataGrid
             autoHeight={true}
             rows={data}
             columns={columns}
+            density='compact'
             initialState={{
               sorting: {
                 sortModel: [{ field: 'description', sort: 'asc' }],
-              },
+              }
             }}
             slots={{ toolbar: GridToolbar }}
             slotProps={{
