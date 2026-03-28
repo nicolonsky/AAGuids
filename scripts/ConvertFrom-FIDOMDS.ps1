@@ -1,17 +1,19 @@
+# Convert the FIDO MDS blob from the JWT format to a more easily consumable JSON format for the frontend application.
+# This script fetches the MDS blob, decodes the JWT, extracts the relevant metadata, and saves it to a JSON file. It also updates the .env file with the time of generation and the next update time.
+
 $metaDataBlobUri = 'https://mds.fidoalliance.org/'
 $targetPath = 'public/mdsblob.json'
 
-
-# Vasil Michev https://www.michev.info/blog/post/2140/decode-jwt-access-and-id-tokens-via-powershell
-function Parse-JWT {
- 
+# By Vasil Michev https://www.michev.info/blog/post/2140/decode-jwt-access-and-id-tokens-via-powershell
+function ConvertFrom-JWT {
+          
     [cmdletbinding()]
     param([Parameter(Mandatory = $true)][string]$token)
- 
+          
     #Validate as per https://tools.ietf.org/html/rfc7519
     #Access and ID tokens are fine, Refresh tokens will not work
     if (!$token.Contains(".") -or !$token.StartsWith("eyJ")) { Write-Error "Invalid token" -ErrorAction Stop }
- 
+          
     #Header
     $tokenheader = $token.Split(".")[0].Replace('-', '+').Replace('_', '/')
     #Fix padding as needed, keep adding "=" until string length modulus 4 reaches 0
@@ -21,7 +23,7 @@ function Parse-JWT {
     #Convert from Base64 encoded string to PSObject all at once
     Write-Verbose "Decoded header:"
     [System.Text.Encoding]::ASCII.GetString([system.convert]::FromBase64String($tokenheader)) | ConvertFrom-Json | fl | Out-Default
- 
+          
     #Payload
     $tokenPayload = $token.Split(".")[1].Replace('-', '+').Replace('_', '/')
     #Fix padding as needed, keep adding "=" until string length modulus 4 reaches 0
@@ -37,13 +39,13 @@ function Parse-JWT {
     #Convert from JSON to PSObject
     $tokobj = $tokenArray | ConvertFrom-Json
     Write-Verbose "Decoded Payload:"
-    
+              
     return $tokobj
 }
 
 $metadata = Invoke-WebRequest -Uri $metaDataBlobUri
 
-$jwt = Parse-JWT -token $metadata.ToString()
+$jwt = ConvertFrom-JWT -token $metadata.ToString()
 
 $metadata = $jwt.entries | Select-Object -ExpandProperty metadataStatement | ForEach-Object {
     [PSCustomObject]@{
@@ -63,10 +65,9 @@ $metadata = $jwt.entries | Select-Object -ExpandProperty metadataStatement | For
     }
 }
 
-
 $metadata | ConvertTo-Json -Depth 5 | Set-Content $targetPath -Encoding utf8 -Force
 
-@"
-REACT_APP_TIME_GENERATED = $(Get-Date -Format 'yyyy-MM-dd')
-REACT_APP_NEXT_UPDATE = $($jwt.nextUpdate)
-"@ | Set-Content .env -Encoding utf8 -Force
+$dotenv = Get-Content .env -Raw
+$dotenv = $dotenv -replace 'REACT_APP_TIME_GENERATED\\s*=.*', "REACT_APP_TIME_GENERATED = $(Get-Date -Format 'yyyy-MM-dd')"
+$dotenv = $dotenv -replace 'REACT_APP_NEXT_UPDATE\\s*=.*', "REACT_APP_NEXT_UPDATE = $($jwt.nextUpdate)"
+$dotenv | Set-Content .env -Encoding utf8 -Force
