@@ -83,10 +83,15 @@ jobs:
 
           $metadata | ConvertTo-Json -Depth 5 | Set-Content $targetPath -Encoding utf8 -Force
 
+          $dotenv = Get-Content .env -Raw
+
+          $dotenv +=
           @"
           REACT_APP_TIME_GENERATED = $(Get-Date -Format 'yyyy-MM-dd')
           REACT_APP_NEXT_UPDATE = $($jwt.nextUpdate)
-          "@ | Set-Content .env -Encoding utf8 -Force    
+          "@ 
+          
+          $dotenv | Set-Content .env -Encoding utf8 -Append -Force    
         shell: pwsh
       - name: Dump AAGUIDs (combined_aaguid)
         run: |
