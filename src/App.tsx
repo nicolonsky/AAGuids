@@ -10,6 +10,7 @@ import { darkTheme } from './components/Theme';
 const passkeyInfo = process.env.REACT_APP_PASSKEY_INFO_URL || '';
 const sampleQueryUnofficialUri = process.env.REACT_APP_SAMPLE_QUERY_UNOFFICIAL_URI || '';
 const sampleQueryOfficialUri = process.env.REACT_APP_SAMPLE_QUERY_OFFICIAL_URI || '';
+const githubRepo = process.env.REACT_APP_GITHUB_REPO || '';
 
 function App() {
   const [data, setData] = useState<AAGuidInfo[]>([]);
@@ -59,6 +60,7 @@ function App() {
             sampleQueryOfficialUri={sampleQueryOfficialUri}
             sampleQueryUnofficialUri={sampleQueryUnofficialUri}
             passkeyInfo={passkeyInfo}
+            githubRepo={githubRepo}
           />
         </ThemeProvider>
       </Stack>
