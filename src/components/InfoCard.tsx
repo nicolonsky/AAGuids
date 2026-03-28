@@ -41,9 +41,9 @@ const InfoCard: React.FC<InfoCardProps> = ({ showOfficial }) => (
             secondary='List source'
             primary={
               showOfficial ? (
-                <Link href="https://github.com/passkeydeveloper/passkey-authenticator-aaguids">Passkeys Developer Resources</Link>
-              ) : (
                 <Link href="https://fidoalliance.org/metadata/">FIDO Alliance Metadata Service</Link>
+              ) : (
+                <Link href="https://github.com/passkeydeveloper/passkey-authenticator-aaguids">Passkeys Developer Resources</Link>
               )
             }
           />
