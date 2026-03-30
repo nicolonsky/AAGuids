@@ -68,6 +68,6 @@ $metadata = $jwt.entries | Select-Object -ExpandProperty metadataStatement | For
 $metadata | ConvertTo-Json -Depth 5 | Set-Content $targetPath -Encoding utf8 -Force
 
 $dotenv = Get-Content .env -Raw
-$dotenv = $dotenv -replace 'REACT_APP_TIME_GENERATED\\s*=.*', "REACT_APP_TIME_GENERATED = $(Get-Date -Format 'yyyy-MM-dd')"
-$dotenv = $dotenv -replace 'REACT_APP_NEXT_UPDATE\\s*=.*', "REACT_APP_NEXT_UPDATE = $($jwt.nextUpdate)"
-$dotenv | Set-Content .env -Encoding utf8 -Force
+$dotenv = $dotenv -replace 'REACT_APP_TIME_GENERATED\s*=.*', "REACT_APP_TIME_GENERATED = $(Get-Date -Format 'yyyy-MM-dd')"
+$dotenv = $dotenv -replace 'REACT_APP_NEXT_UPDATE\s*=.*', "REACT_APP_NEXT_UPDATE = $($jwt.nextUpdate)"
+$dotenv.TrimEnd() | Set-Content .env -Encoding utf8 -Force
