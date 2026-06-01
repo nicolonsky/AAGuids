@@ -12,6 +12,10 @@
     "Name": "ATLKey Authenticator"
   },
   {
+    "AAGuid": "03012cb7-4fb2-42e7-9e8d-a81f10e2a5e9",
+    "Name": "YubiKey 5 Series with Lightning (Consumer Profile)"
+  },
+  {
     "AAGuid": "04a8fcf2-19c1-457b-911e-69219f17583f",
     "Name": "Thales PAY GFCX13 authenticator"
   },
@@ -40,6 +44,10 @@
     "Name": "VeriMark(TM) Guard 2.1 Fingerprint Security Key"
   },
   {
+    "AAGuid": "0a357157-9b18-4c8a-920e-d156e972b2f8",
+    "Name": "YubiKey 5 Series (Consumer Profile)"
+  },
+  {
     "AAGuid": "0acf3011-bc60-f375-fb53-6f05f43154e0",
     "Name": "Nymi FIDO2 Authenticator"
   },
@@ -64,8 +72,16 @@
     "Name": "Keeper"
   },
   {
+    "AAGuid": "0ebd9f2c-f685-441c-8c3e-a02a234a840a",
+    "Name": "YubiKey 5 Series with NFC Enhanced PIN (Consumer Profile)"
+  },
+  {
     "AAGuid": "0f00cc22-4640-41e7-9585-384ec73ffe9b",
     "Name": "Taglio CTAP2.1 BIO"
+  },
+  {
+    "AAGuid": "0f083f18-4105-43a8-ad69-24e812e38141",
+    "Name": "Security Key Series with NFC (Consumer Profile)"
   },
   {
     "AAGuid": "10c70715-2a9a-4de1-b0aa-3cff6d496d39",
@@ -128,6 +144,10 @@
     "Name": "VeridiumID Passkey iOS SDK"
   },
   {
+    "AAGuid": "1f8e43df-71ff-e11d-bea3-c4ee7003b232",
+    "Name": "Thetis Pro FIDO2 Key"
+  },
+  {
     "AAGuid": "20ac7a17-c814-4833-93fe-539f0d5e3389",
     "Name": "YubiKey 5 Series (Enterprise Profile)"
   },
@@ -142,6 +162,10 @@
   {
     "AAGuid": "22248c4c-7a12-46e2-9a41-44291b373a4d",
     "Name": "LogMeOnce"
+  },
+  {
+    "AAGuid": "22682ee5-4f0e-4c19-be3e-797d5770ebfe",
+    "Name": "Precision InnaIT Key FIDO 2 Level 2 certified"
   },
   {
     "AAGuid": "23195a52-62d9-40fa-8ee5-23b173f4fb52",
@@ -160,8 +184,16 @@
     "Name": "SafeNet eToken Fusion CC"
   },
   {
+    "AAGuid": "24083bcb-3034-4867-99de-a3b52e1d426a",
+    "Name": "Enterprise Security Key Series with NFC (Consumer Profile)"
+  },
+  {
     "AAGuid": "24673149-6c86-42e7-98d9-433fb5b73296",
     "Name": "YubiKey 5 Series with Lightning"
+  },
+  {
+    "AAGuid": "2588ae83-5a3b-4536-b8de-5e540200d191",
+    "Name": "Dapple Authenticator from Dapple Security Inc."
   },
   {
     "AAGuid": "260e3021-482d-442d-838c-7edfbe153b7e",
@@ -264,6 +296,10 @@
     "Name": "YubiKey 5 Series with NFC Preview"
   },
   {
+    "AAGuid": "357f2718-434f-4124-8a58-7e28c5e4a2fc",
+    "Name": "Deepnet SafeKey/Classic (NFC)"
+  },
+  {
     "AAGuid": "361a3082-0278-4583-a16f-72a527f973e4",
     "Name": "eWBM eFA500 FIDO2 Authenticator"
   },
@@ -289,7 +325,7 @@
   },
   {
     "AAGuid": "3b1adb99-0dfe-46fd-90b8-7f7614a4de2a",
-    "Name": "GoTrust Idem Key FIDO2 Authenticator"
+    "Name": "GoTrust Idem Key"
   },
   {
     "AAGuid": "3b24bf49-1d45-4484-a917-13175df0867b",
@@ -308,12 +344,20 @@
     "Name": "SECORA ID V2 by Infineon Pay Edition"
   },
   {
+    "AAGuid": "3ec9c8d3-a5a7-415b-a7b5-f1d606368d3f",
+    "Name": "YubiKey 5 CCN Series with NFC (Enterprise Profile)"
+  },
+  {
     "AAGuid": "3f59672f-20aa-4afe-b6f4-7e5e916b6d98",
     "Name": "Arculus FIDO 2.1 Key Card [P71]"
   },
   {
     "AAGuid": "3fd410dc-8ab7-4b86-a1cb-c7174620b2dc",
     "Name": "IDEMIA SOLVO Fly 80 R1 FIDO Card Draft"
+  },
+  {
+    "AAGuid": "41e39911-c669-4811-b860-c6ad0b411b96",
+    "Name": "YubiKey 5 Series with NFC (Enterprise Profile)"
   },
   {
     "AAGuid": "42b4fb4a-2866-43b2-9bf7-6c6669c2e5d3",
@@ -404,8 +448,20 @@
     "Name": "SmartDisplayer BobeePass FIDO2 Authenticator"
   },
   {
+    "AAGuid": "522a3f91-5f5d-480d-be37-6cecfad5a27b",
+    "Name": "Precision InnaIT Key FIDO 2 Level 2 certified"
+  },
+  {
+    "AAGuid": "524de2de-982f-49b4-a769-2b5e3b73ad79",
+    "Name": "YubiKey 5 Series (Enterprise Profile)"
+  },
+  {
     "AAGuid": "531126d6-e717-415c-9320-3d9aa6981239",
     "Name": "Dashlane"
+  },
+  {
+    "AAGuid": "53334693-4b3f-4198-8857-53772de2ab65",
+    "Name": "Precision InnaIT Key FIDO 2 Level 2 certified"
   },
   {
     "AAGuid": "53414d53-554e-4700-0000-000000000000",
@@ -516,6 +572,14 @@
     "Name": "Thales Bio iOS SDK"
   },
   {
+    "AAGuid": "6832d205-75f2-44c7-a864-e868c796d06e",
+    "Name": "Precision InnaIT Key FIDO 2 Level 2 certified"
+  },
+  {
+    "AAGuid": "686de81e-fff2-41c1-bb83-2723aaf3e913",
+    "Name": "IIST SASE USB KEY 1"
+  },
+  {
     "AAGuid": "692db549-7ae5-44d5-a1e5-dd20a493b723",
     "Name": "HID Crescendo Key"
   },
@@ -536,6 +600,10 @@
     "Name": "YubiKey 5 Series with NFC (Enterprise Profile)"
   },
   {
+    "AAGuid": "6bb49926-160a-4306-a100-4eb39ba6ac45",
+    "Name": "AVG Password Manager"
+  },
+  {
     "AAGuid": "6d212b28-a2c1-4638-b375-5932070f62e9",
     "Name": "initial"
   },
@@ -544,12 +612,20 @@
     "Name": "Security Key by Yubico with NFC"
   },
   {
+    "AAGuid": "6d4aa745-dad5-40c4-b9b4-6a252fcee70f",
+    "Name": "GoTrust Cyber Key"
+  },
+  {
     "AAGuid": "6dae43be-af9c-417b-8b9f-1b611168ec60",
     "Name": "Dapple Authenticator from Dapple Security Inc."
   },
   {
     "AAGuid": "6e24d385-004a-16a0-7bfe-efd963845b34",
     "Name": "Ledger Stax FIDO2 Authenticator"
+  },
+  {
+    "AAGuid": "6e34341a-88c7-483d-b777-a425c355be93",
+    "Name": "WebComm OETHenticator"
   },
   {
     "AAGuid": "6e8d1eae-8d40-4c25-bcf8-4633959afc71",
@@ -566,6 +642,10 @@
   {
     "AAGuid": "70e7c36f-f2f6-9e0d-07a6-bcc243262e6b",
     "Name": "OneKey FIDO2 Bluetooth Authenticator"
+  },
+  {
+    "AAGuid": "72a2b5b1-95a5-4df9-a881-4192aff4f72e",
+    "Name": "GoTrust Idem Key mini"
   },
   {
     "AAGuid": "72c6b72d-8512-4c66-8359-9d3d10d9222f",
@@ -638,6 +718,10 @@
   {
     "AAGuid": "7d2afadd-bf6b-44a2-a66b-e831fceb8eff",
     "Name": "Taglio CTAP2.1 EP"
+  },
+  {
+    "AAGuid": "7dab85a5-d16d-4eaf-a7ef-4c1385b151c5",
+    "Name": "YubiKey 5 Series with NFC (Consumer Profile) KVZR57-2"
   },
   {
     "AAGuid": "7e3f3d30-3557-4442-bdae-139312178b39",
@@ -780,8 +864,16 @@
     "Name": "YubiKey Bio Series - Multi-protocol Edition (Enterprise Profile)"
   },
   {
+    "AAGuid": "9806a2c8-c0da-478e-b4ca-620005d34182",
+    "Name": "YubiKey Bio Multi-protocol Edition (Consumer Profile) 1VDJSN-2"
+  },
+  {
     "AAGuid": "9876631b-d4a0-427f-5773-0ec71c9e0279",
     "Name": "Somu Secp256R1 FIDO2 CTAP2 Authenticator"
+  },
+  {
+    "AAGuid": "9955a1cd-564c-d388-ad68-9878a27be9f1",
+    "Name": "StarSign Chase FIDO Card"
   },
   {
     "AAGuid": "998f358b-2dd2-4cbe-a43a-e8107438dfb3",
@@ -800,12 +892,24 @@
     "Name": "SECORA ID Key S USB by Infineon Consumer Edition"
   },
   {
+    "AAGuid": "9a3f2abd-a73d-439c-9ee7-1b53a857eaa7",
+    "Name": "YubiKey 5 Series with NFC Enhanced PIN (Enterprise Profile)"
+  },
+  {
+    "AAGuid": "9addb28c-b46f-4402-808f-019651441ff3",
+    "Name": "KeePassPasskey"
+  },
+  {
     "AAGuid": "9c835346-796b-4c27-8898-d6032f515cc5",
     "Name": "Cryptnox FIDO2"
   },
   {
     "AAGuid": "9d3df6ba-282f-11ed-a261-0242ac120002",
     "Name": "Arculus FIDO2/U2F Key Card"
+  },
+  {
+    "AAGuid": "9dd8d593-2213-438a-97f8-d6b813d51c27",
+    "Name": "YubiKey Bio Fido Edition (Consumer Profile)"
   },
   {
     "AAGuid": "9ddd1817-af5a-4672-a2b9-3e3dd95000a9",
@@ -825,7 +929,7 @@
   },
   {
     "AAGuid": "9f0d8150-baa5-4c00-9299-ad62c8bb4e87",
-    "Name": "GoTrust Idem Card FIDO2 Authenticator"
+    "Name": "GoTrust Idem Card"
   },
   {
     "AAGuid": "9f77e279-a6e2-4d58-b700-31e5943c6a98",
@@ -864,6 +968,10 @@
     "Name": "Excelsecu eSecu FIDO2 NFC Security Key"
   },
   {
+    "AAGuid": "a4a2d88e-9796-4356-9164-e2a5a8bd019c",
+    "Name": "Avast Password Manager"
+  },
+  {
     "AAGuid": "a4e9fc6d-4cbe-4758-b8ba-37598bb5bbaa",
     "Name": "Security Key NFC by Yubico"
   },
@@ -888,12 +996,20 @@
     "Name": "TOKEN2 FIDO2 Security Key"
   },
   {
+    "AAGuid": "ab7d1767-3fa0-4388-b6c4-feef7a844809",
+    "Name": "Enterprise Security Key Series with NFC (Enterprise Profile)"
+  },
+  {
     "AAGuid": "ad08c78a-4e41-49b9-86a2-ac15b06899e2",
     "Name": "YubiKey Bio Series - FIDO Edition (Enterprise Profile)"
   },
   {
     "AAGuid": "adce0002-35bc-c60a-648b-0b25f1f05503",
     "Name": "Chrome on Mac"
+  },
+  {
+    "AAGuid": "add92433-0d69-4026-8166-29b25bce64e9",
+    "Name": "YubiKey Bio Fido Edition (Enterprise Profile)"
   },
   {
     "AAGuid": "aeb6569c-f8fb-4950-ac60-24ca2bbe2e52",
@@ -968,6 +1084,10 @@
     "Name": "Deepnet SafeKey/Classic (USB)"
   },
   {
+    "AAGuid": "ba0a9266-40d8-4048-9786-d710b5474752",
+    "Name": "YubiKey Bio Multi-protocol Edition (Consumer Profile)"
+  },
+  {
     "AAGuid": "ba76a271-6eb6-4171-874d-b6428dbe3437",
     "Name": "ATKey.ProS"
   },
@@ -1008,8 +1128,16 @@
     "Name": "iPasswords"
   },
   {
+    "AAGuid": "c1288a5c-d66b-495c-a68f-4e81f9ec5b53",
+    "Name": "Deepnet SafeKey/Classic (FP) XF"
+  },
+  {
     "AAGuid": "c1f9a0bc-1dd2-404a-b27f-8e29047a43fd",
     "Name": "YubiKey 5 FIPS Series with NFC"
+  },
+  {
+    "AAGuid": "c3479970-e58a-4f70-836f-853bf42fb063",
+    "Name": "YubiKey 5 Series with Lightning (Enterprise Profile)"
   },
   {
     "AAGuid": "c3f47802-de73-4dfc-ba22-671fe3304f90",
@@ -1029,7 +1157,7 @@
   },
   {
     "AAGuid": "c611b55c-77b2-4527-8082-590e931b2f08",
-    "Name": "GoTrust Idem Key (Consumer profile)"
+    "Name": "GoTrust Idem Key "
   },
   {
     "AAGuid": "c62100de-759b-4bf8-b22b-63b3e3a80401",
@@ -1156,6 +1284,10 @@
     "Name": "ATKey.Card NFC"
   },
   {
+    "AAGuid": "dc5e949d-f939-43b3-9877-a85c7186b753",
+    "Name": "YubiKey Bio Multi-protocol Edition (Enterprise Profile)"
+  },
+  {
     "AAGuid": "dd4ec289-e01d-41c9-bb89-70fa845d4bf2",
     "Name": "iCloud Keychain (Managed)"
   },
@@ -1196,6 +1328,10 @@
     "Name": "Security Key NFC by Yubico"
   },
   {
+    "AAGuid": "e7db2bd3-f2fe-4d71-ad78-7e7aa166cfd1",
+    "Name": "Avira Password Manager"
+  },
+  {
     "AAGuid": "e86addcd-7711-47e5-b42a-c18257b0bf61",
     "Name": "IDCore 3121 Fido"
   },
@@ -1218,6 +1354,10 @@
   {
     "AAGuid": "eb3b131e-59dc-536a-d176-cb7306da10f5",
     "Name": "ellipticSecure MIRkey USB Authenticator"
+  },
+  {
+    "AAGuid": "eb7ef748-cbe0-4b40-b8f6-07bd2d592d35",
+    "Name": "YubiKey 5 CCN Series with NFC (Consumer Profile)"
   },
   {
     "AAGuid": "ec31b4cc-2acc-4b8e-9c01-bade00ccbe26",
@@ -1256,6 +1396,10 @@
     "Name": "FIDO KeyPass S3"
   },
   {
+    "AAGuid": "f4ce5fc0-57d3-46f5-a736-efb7d5bc63b5",
+    "Name": "YubiKey 5 Series with NFC (Consumer Profile)"
+  },
+  {
     "AAGuid": "f56f58b3-d711-4afc-ba7d-6ac05f88cb19",
     "Name": "WinMagic FIDO Eazy - Phone"
   },
@@ -1278,6 +1422,10 @@
   {
     "AAGuid": "fa2b99dc-9e39-4257-8f92-4a30d23c4118",
     "Name": "YubiKey 5 Series with NFC"
+  },
+  {
+    "AAGuid": "fa37f553-f9b6-4adb-ac53-8bbb57ebdf0d",
+    "Name": "Norton Password Manager"
   },
   {
     "AAGuid": "fbefdf68-fe86-0106-213e-4d5fa24cbe2e",

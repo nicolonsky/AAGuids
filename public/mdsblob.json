@@ -12,9 +12,9 @@
       }
     ],
     "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw",
       "secp256k1_ecdsa_sha256_raw",
-      "ed25519_eddsa_sha512_raw",
-      "secp256r1_ecdsa_sha256_raw"
+      "ed25519_eddsa_sha512_raw"
     ],
     "publicKeyAlgAndEncodings": [
       "cose"
@@ -304,8 +304,8 @@
     ],
     "authenticationAlgorithms": [
       "secp384r1_ecdsa_sha384_raw",
-      "secp256r1_ecdsa_sha256_raw",
-      "ed25519_eddsa_sha512_raw"
+      "ed25519_eddsa_sha512_raw",
+      "secp256r1_ecdsa_sha256_raw"
     ],
     "publicKeyAlgAndEncodings": [
       "cose"
@@ -488,9 +488,9 @@
       }
     ],
     "authenticationAlgorithms": [
-      "secp384r1_ecdsa_sha384_raw",
+      "secp256r1_ecdsa_sha256_raw",
       "ed25519_eddsa_sha512_raw",
-      "secp256r1_ecdsa_sha256_raw"
+      "secp384r1_ecdsa_sha384_raw"
     ],
     "publicKeyAlgAndEncodings": [
       "cose"
@@ -753,8 +753,8 @@
       }
     ],
     "authenticationAlgorithms": [
-      "ed25519_eddsa_sha512_raw",
-      "secp256r1_ecdsa_sha256_raw"
+      "secp256r1_ecdsa_sha256_raw",
+      "ed25519_eddsa_sha512_raw"
     ],
     "publicKeyAlgAndEncodings": [
       "cose"
@@ -1038,8 +1038,8 @@
       }
     ],
     "authenticationAlgorithms": [
-      "secp256r1_ecdsa_sha256_raw",
-      "rsassa_pss_sha256_raw"
+      "rsassa_pss_sha256_raw",
+      "secp256r1_ecdsa_sha256_raw"
     ],
     "publicKeyAlgAndEncodings": [
       "cose",
@@ -2850,6 +2850,43 @@
     ]
   },
   {
+    "aaguid": "2588ae83-5a3b-4536-b8de-5e540200d191",
+    "description": "Dapple Authenticator from Dapple Security Inc.",
+    "authenticatorVersion": 12,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 0
+      },
+      {
+        "major": 1,
+        "minor": 1
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "software"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "internal"
+    ]
+  },
+  {
     "aaguid": "4b89f401-464e-4745-a520-486ddfc5d80e",
     "description": "IIST FIDO2 Authenticator",
     "authenticatorVersion": 2,
@@ -3906,6 +3943,47 @@
     "attachmentHint": [
       "external",
       "wired"
+    ]
+  },
+  {
+    "aaguid": "6d4aa745-dad5-40c4-b9b4-6a252fcee70f",
+    "description": "GoTrust Cyber Key",
+    "authenticatorVersion": 262145,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 0
+      },
+      {
+        "major": 1,
+        "minor": 1
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw",
+      "secp384r1_ecdsa_sha384_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wired",
+      "wireless",
+      "nfc"
     ]
   },
   {
@@ -7327,6 +7405,43 @@
     ]
   },
   {
+    "aaguid": null,
+    "description": "YubiKey 5 Series with NFC (Consumer Profile)",
+    "authenticatorVersion": 329728,
+    "protocolFamily": "u2f",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 2
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "ecc_x962_raw"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element",
+      "remote_handle"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wired",
+      "wireless",
+      "nfc"
+    ]
+  },
+  {
     "aaguid": "0db01cd6-5618-455b-bb46-1ec203d3213e",
     "description": "GoldKey Security Token",
     "authenticatorVersion": 12,
@@ -7690,6 +7805,45 @@
       "wired",
       "wireless",
       "nfc"
+    ]
+  },
+  {
+    "aaguid": "686de81e-fff2-41c1-bb83-2723aaf3e913",
+    "description": "IIST SASE USB KEY 1",
+    "authenticatorVersion": 2,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 1
+      },
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw",
+      "ed25519_eddsa_sha512_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wired"
     ]
   },
   {
@@ -14022,6 +14176,44 @@
     ]
   },
   {
+    "aaguid": "dee49ee1-11cb-47b6-bed0-8e995e67a0fb",
+    "description": "SECORA Connect SLS21 D1 FIDO 2.1 v1.0 by Infineon - Consumer Edition",
+    "authenticatorVersion": 1,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 1
+      },
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "nfc"
+    ]
+  },
+  {
     "aaguid": null,
     "description": "authenton1 - CTAP 2.1",
     "authenticatorVersion": 2,
@@ -17923,6 +18115,44 @@
     "cryptoStrength": 128,
     "attachmentHint": [
       "external"
+    ]
+  },
+  {
+    "aaguid": "3b3faa7b-2c56-4489-bcd3-53b83ee75768",
+    "description": "SECORA Connect SLS21 D1 FIDO 2.1 v1.0 by Infineon - Enterprise Edition",
+    "authenticatorVersion": 1,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 0
+      },
+      {
+        "major": 1,
+        "minor": 1
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "nfc"
     ]
   },
   {
