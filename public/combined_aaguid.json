@@ -332,6 +332,10 @@
     "Name": "YubiKey 5 Series with Lightning (Enterprise Profile)"
   },
   {
+    "AAGuid": "3b3faa7b-2c56-4489-bcd3-53b83ee75768",
+    "Name": "SECORA Connect SLS21 D1 FIDO 2.1 v1.0 by Infineon - Enterprise Edition"
+  },
+  {
     "AAGuid": "3e078ffd-4c54-4586-8baa-a77da113aec5",
     "Name": "Hideez Key 3 FIDO2"
   },
@@ -1302,6 +1306,10 @@
   {
     "AAGuid": "de503f9c-21a4-4f76-b4b7-558eb55c6f89",
     "Name": "Devolutions"
+  },
+  {
+    "AAGuid": "dee49ee1-11cb-47b6-bed0-8e995e67a0fb",
+    "Name": "SECORA Connect SLS21 D1 FIDO 2.1 v1.0 by Infineon - Consumer Edition"
   },
   {
     "AAGuid": "def8ab1a-9f91-44f1-a103-088d8dc7d681",

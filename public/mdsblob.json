@@ -188,9 +188,9 @@
       }
     ],
     "authenticationAlgorithms": [
-      "secp384r1_ecdsa_sha384_raw",
       "secp256r1_ecdsa_sha256_raw",
-      "ed25519_eddsa_sha512_raw"
+      "ed25519_eddsa_sha512_raw",
+      "secp384r1_ecdsa_sha384_raw"
     ],
     "publicKeyAlgAndEncodings": [
       "cose"
@@ -303,9 +303,9 @@
       }
     ],
     "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw",
       "secp384r1_ecdsa_sha384_raw",
-      "ed25519_eddsa_sha512_raw",
-      "secp256r1_ecdsa_sha256_raw"
+      "ed25519_eddsa_sha512_raw"
     ],
     "publicKeyAlgAndEncodings": [
       "cose"
@@ -1038,8 +1038,8 @@
       }
     ],
     "authenticationAlgorithms": [
-      "rsassa_pss_sha256_raw",
-      "secp256r1_ecdsa_sha256_raw"
+      "secp256r1_ecdsa_sha256_raw",
+      "rsassa_pss_sha256_raw"
     ],
     "publicKeyAlgAndEncodings": [
       "cose",
@@ -2300,6 +2300,53 @@
       "external",
       "wireless",
       "nfc"
+    ]
+  },
+  {
+    "aaguid": "238ab2f5-b57f-4917-b3c6-3d3c6c0c350f",
+    "description": "FEITIAN FT-JCOS BioCard",
+    "authenticatorVersion": 1,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 0
+      },
+      {
+        "major": 1,
+        "minor": 1
+      },
+      {
+        "major": 1,
+        "minor": 3
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw",
+      "ed25519_eddsa_sha512_raw",
+      "secp384r1_ecdsa_sha384_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wired",
+      "wireless",
+      "nfc",
+      "smart-card"
     ]
   },
   {
@@ -3828,6 +3875,43 @@
     "attachmentHint": [
       "external",
       "wired"
+    ]
+  },
+  {
+    "aaguid": "55fd881f-40ba-4eaf-8435-42c5fed08b76",
+    "description": "SECORA ID V2 by Infineon Consumer Edition",
+    "authenticatorVersion": 1,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 1
+      },
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "nfc"
     ]
   },
   {
@@ -7914,6 +7998,44 @@
     "cryptoStrength": null,
     "attachmentHint": [
       "internal"
+    ]
+  },
+  {
+    "aaguid": "18852056-063b-4042-9814-7d0d383081f9",
+    "description": "SECORA ID Key S USB by Infineon Enterprise Edition",
+    "authenticatorVersion": 1,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 0
+      },
+      {
+        "major": 1,
+        "minor": 1
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "nfc"
     ]
   },
   {
@@ -17464,6 +17586,43 @@
     ]
   },
   {
+    "aaguid": "8108bdcd-8483-46b3-b3ce-359f8190325e",
+    "description": "SECORA ID V2 by Infineon Enterprise Edition",
+    "authenticatorVersion": 1,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 0
+      },
+      {
+        "major": 1,
+        "minor": 1
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "nfc"
+    ]
+  },
+  {
     "aaguid": "b113a455-cfb6-4c17-8cba-cd952feb7d48",
     "description": "eToken FIDO NFC",
     "authenticatorVersion": 6,
@@ -17735,8 +17894,8 @@
       "cose"
     ],
     "attestationTypes": [
-      "basic_full",
-      "basic_surrogate"
+      "basic_surrogate",
+      "basic_full"
     ],
     "keyProtection": [
       "hardware",
