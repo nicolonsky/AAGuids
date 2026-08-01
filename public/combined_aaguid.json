@@ -120,6 +120,10 @@
     "Name": "Chunghwa Telecom FIDO2 Smart Card Authenticator"
   },
   {
+    "AAGuid": "18852056-063b-4042-9814-7d0d383081f9",
+    "Name": "SECORA ID Key S USB by Infineon Enterprise Edition"
+  },
+  {
     "AAGuid": "19083c3d-8383-4b18-bc03-8f1c9ab2fd1b",
     "Name": "YubiKey 5 Series"
   },
@@ -182,6 +186,10 @@
   {
     "AAGuid": "23786452-f02d-4344-87ed-aaf703726881",
     "Name": "SafeNet eToken Fusion CC"
+  },
+  {
+    "AAGuid": "238ab2f5-b57f-4917-b3c6-3d3c6c0c350f",
+    "Name": "FEITIAN FT-JCOS BioCard"
   },
   {
     "AAGuid": "24083bcb-3034-4867-99de-a3b52e1d426a",
@@ -480,6 +488,10 @@
     "Name": "HID Crescendo Enabled"
   },
   {
+    "AAGuid": "55fd881f-40ba-4eaf-8435-42c5fed08b76",
+    "Name": "SECORA ID V2 by Infineon Consumer Edition"
+  },
+  {
     "AAGuid": "560a780c-b6ae-4f03-b110-082f856425b4",
     "Name": "KQC QuKey Bio FIDO2 Authenticator"
   },
@@ -730,6 +742,10 @@
   {
     "AAGuid": "7e3f3d30-3557-4442-bdae-139312178b39",
     "Name": "RSA DS100"
+  },
+  {
+    "AAGuid": "8108bdcd-8483-46b3-b3ce-359f8190325e",
+    "Name": "SECORA ID V2 by Infineon Enterprise Edition"
   },
   {
     "AAGuid": "817cdab8-0d51-4de1-a821-e25b88519cf3",
@@ -1220,6 +1236,10 @@
     "Name": "USB/NFC Passcode Authenticator"
   },
   {
+    "AAGuid": "d2717a32-9851-48a8-9961-b264c97a411a",
+    "Name": "Fenko Vault"
+  },
+  {
     "AAGuid": "d2fbd093-ee62-488d-9dad-1e36389f8826",
     "Name": "YubiKey 5 FIPS Series (RC Preview)"
   },
@@ -1286,6 +1306,10 @@
   {
     "AAGuid": "da1fa263-8b25-42b6-a820-c0036f21ba7f",
     "Name": "ATKey.Card NFC"
+  },
+  {
+    "AAGuid": "da583154-ce16-4cdf-9fe6-1dba788c0998",
+    "Name": "Hey Be Safe"
   },
   {
     "AAGuid": "dc5e949d-f939-43b3-9877-a85c7186b753",

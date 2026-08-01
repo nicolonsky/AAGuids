@@ -12,9 +12,9 @@
       }
     ],
     "authenticationAlgorithms": [
-      "secp256r1_ecdsa_sha256_raw",
       "secp256k1_ecdsa_sha256_raw",
-      "ed25519_eddsa_sha512_raw"
+      "ed25519_eddsa_sha512_raw",
+      "secp256r1_ecdsa_sha256_raw"
     ],
     "publicKeyAlgAndEncodings": [
       "cose"
@@ -188,9 +188,9 @@
       }
     ],
     "authenticationAlgorithms": [
+      "secp384r1_ecdsa_sha384_raw",
       "secp256r1_ecdsa_sha256_raw",
-      "ed25519_eddsa_sha512_raw",
-      "secp384r1_ecdsa_sha384_raw"
+      "ed25519_eddsa_sha512_raw"
     ],
     "publicKeyAlgAndEncodings": [
       "cose"
@@ -254,6 +254,47 @@
   },
   {
     "aaguid": null,
+    "description": "IDEMIA SOLVO Fly 80 R3 FIDO Card for j",
+    "authenticatorVersion": 1107448831,
+    "protocolFamily": "u2f",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 1
+      },
+      {
+        "major": 1,
+        "minor": 2
+      },
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "ecc_x962_raw"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "nfc"
+    ]
+  },
+  {
+    "aaguid": null,
     "description": "Feitian ePass FIDO-NFC Security Key",
     "authenticatorVersion": 1,
     "protocolFamily": "u2f",
@@ -303,8 +344,8 @@
       }
     ],
     "authenticationAlgorithms": [
-      "secp256r1_ecdsa_sha256_raw",
       "secp384r1_ecdsa_sha384_raw",
+      "secp256r1_ecdsa_sha256_raw",
       "ed25519_eddsa_sha512_raw"
     ],
     "publicKeyAlgAndEncodings": [
@@ -488,9 +529,9 @@
       }
     ],
     "authenticationAlgorithms": [
-      "secp256r1_ecdsa_sha256_raw",
+      "secp384r1_ecdsa_sha384_raw",
       "ed25519_eddsa_sha512_raw",
-      "secp384r1_ecdsa_sha384_raw"
+      "secp256r1_ecdsa_sha256_raw"
     ],
     "publicKeyAlgAndEncodings": [
       "cose"
@@ -753,8 +794,8 @@
       }
     ],
     "authenticationAlgorithms": [
-      "secp256r1_ecdsa_sha256_raw",
-      "ed25519_eddsa_sha512_raw"
+      "ed25519_eddsa_sha512_raw",
+      "secp256r1_ecdsa_sha256_raw"
     ],
     "publicKeyAlgAndEncodings": [
       "cose"
@@ -5338,6 +5379,46 @@
     ]
   },
   {
+    "aaguid": "6169eb16-f87a-42d8-978d-e1ac0c3f319f",
+    "description": "GoTrust Idem Card",
+    "authenticatorVersion": 262145,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 0
+      },
+      {
+        "major": 1,
+        "minor": 1
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw",
+      "secp384r1_ecdsa_sha384_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wireless",
+      "nfc"
+    ]
+  },
+  {
     "aaguid": null,
     "description": "YubiKey 5 FIPS Series with Lightning",
     "authenticatorVersion": 328707,
@@ -5808,6 +5889,46 @@
       "hardware",
       "secure_element",
       "remote_handle"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wired",
+      "wireless",
+      "nfc"
+    ]
+  },
+  {
+    "aaguid": "19bca99b-7c09-44fe-a969-8cba45764542",
+    "description": "HID Crescendo Key V3 FIPS",
+    "authenticatorVersion": 262144,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 1
+      },
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
     ],
     "matcherProtection": [
       "on_chip"
@@ -10920,6 +11041,45 @@
     ]
   },
   {
+    "aaguid": null,
+    "description": "Giesecke+Devrient StarSign FIDO Card 2.1",
+    "authenticatorVersion": 1,
+    "protocolFamily": "u2f",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 2
+      },
+      {
+        "major": 1,
+        "minor": 1
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "ecc_x962_raw"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "software"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wireless",
+      "nfc"
+    ]
+  },
+  {
     "aaguid": "4e2ddbc2-2687-4709-8551-cb66c9776bfe",
     "description": "SECORA ID V2 FIDO2.1 L1",
     "authenticatorVersion": 1,
@@ -12982,6 +13142,43 @@
     ]
   },
   {
+    "aaguid": null,
+    "description": "FEITIAN FT-JCOS BioCard",
+    "authenticatorVersion": 1,
+    "protocolFamily": "u2f",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 2
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "ecc_x962_raw"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element",
+      "remote_handle"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wired",
+      "wireless",
+      "nfc"
+    ]
+  },
+  {
     "aaguid": "b92c3f9a-c014-4056-887f-140a2501163b",
     "description": "Security Key by Yubico",
     "authenticatorVersion": 50200,
@@ -13702,6 +13899,43 @@
       "external",
       "wired",
       "wireless",
+      "nfc"
+    ]
+  },
+  {
+    "aaguid": "b68c4b8d-65cb-42ae-b4f6-8606dfba3c22",
+    "description": "IDEMIA SOLVO Fly 80 R3 FIDO Card for j",
+    "authenticatorVersion": 1107448831,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 0
+      },
+      {
+        "major": 1,
+        "minor": 1
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
       "nfc"
     ]
   },
@@ -18050,6 +18284,45 @@
     ],
     "cryptoStrength": 128,
     "attachmentHint": [
+      "nfc"
+    ]
+  },
+  {
+    "aaguid": "c09b3399-4a3d-306c-7bdc-967fef47241f",
+    "description": "Giesecke+Devrient StarSign FIDO Card 2.1",
+    "authenticatorVersion": 1,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 1
+      },
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "software"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wireless",
       "nfc"
     ]
   },
