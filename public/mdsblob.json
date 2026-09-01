@@ -138,6 +138,47 @@
     ]
   },
   {
+    "aaguid": "51787637-8ab8-460c-9302-de0b853d4ffb",
+    "description": "SpearID FIDO2 Standard",
+    "authenticatorVersion": 256,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 1
+      },
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "ed25519_eddsa_sha512_raw",
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wired",
+      "wireless",
+      "nfc"
+    ]
+  },
+  {
     "aaguid": null,
     "description": "NEOWAVE Winkeo FIDO2",
     "authenticatorVersion": 2,
@@ -11634,6 +11675,38 @@
     ]
   },
   {
+    "aaguid": "8791f7dc-418b-4510-bbf5-3baf30715324",
+    "description": "Virtual FIDO2 authenticator for Linux-based systems",
+    "authenticatorVersion": 1,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_surrogate"
+    ],
+    "keyProtection": [
+      "software"
+    ],
+    "matcherProtection": [
+      "software"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "internal"
+    ]
+  },
+  {
     "aaguid": "1f8e43df-71ff-e11d-bea3-c4ee7003b232",
     "description": "Thetis Pro FIDO2 Key",
     "authenticatorVersion": 256,
@@ -17815,6 +17888,42 @@
     "cryptoStrength": 128,
     "attachmentHint": [
       "external",
+      "wireless",
+      "nfc"
+    ]
+  },
+  {
+    "aaguid": "39502df1-646d-4e31-81a1-2ef68b324678",
+    "description": "USB GoldKey Security Token",
+    "authenticatorVersion": 12,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "external",
+      "wired",
       "wireless",
       "nfc"
     ]

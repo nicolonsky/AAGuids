@@ -128,6 +128,10 @@
     "Name": "YubiKey 5 Series"
   },
   {
+    "AAGuid": "19bca99b-7c09-44fe-a969-8cba45764542",
+    "Name": "HID Crescendo Key V3 FIPS"
+  },
+  {
     "AAGuid": "1ac71f64-468d-4fe0-bef1-0e5f2f551f18",
     "Name": "YubiKey 5 Series with NFC (Enterprise Profile)"
   },
@@ -392,8 +396,16 @@
     "Name": "YubiKey 5 Series (Enterprise Profile)"
   },
   {
+    "AAGuid": "45e3057e-b2f9-48ed-912f-9b901e153b16",
+    "Name": "Uniqkey"
+  },
+  {
     "AAGuid": "46544d5d-8f5d-4db4-89ac-ea8977073fff",
     "Name": "Foongtone FIDO Authenticator"
+  },
+  {
+    "AAGuid": "477b05cd-7f78-4fe7-b629-27247f296138",
+    "Name": "WALLIX Vault"
   },
   {
     "AAGuid": "47ab2fb4-66ac-4184-9ae1-86be814012d5",
@@ -460,6 +472,10 @@
     "Name": "SmartDisplayer BobeePass FIDO2 Authenticator"
   },
   {
+    "AAGuid": "51787637-8ab8-460c-9302-de0b853d4ffb",
+    "Name": "SpearID FIDO2 Standard"
+  },
+  {
     "AAGuid": "522a3f91-5f5d-480d-be37-6cecfad5a27b",
     "Name": "Precision InnaIT Key FIDO 2 Level 2 certified"
   },
@@ -482,6 +498,10 @@
   {
     "AAGuid": "5343502d-5343-5343-6172-644649444f32",
     "Name": "ESS Smart Card Inc. Authenticator"
+  },
+  {
+    "AAGuid": "53e7a7a5-e75f-4d3d-9483-12fc779cdf23",
+    "Name": "Password Depot"
   },
   {
     "AAGuid": "54d9fee8-e621-4291-8b18-7157b99c5bec",
@@ -536,6 +556,10 @@
     "Name": "Allthenticator Android App: roaming BLE FIDO2 Allthenticator for Windows, Mac, Linux, and Allthenticate door readers"
   },
   {
+    "AAGuid": "5ca471bb-a56d-46ad-a496-67e70e9ed9fb",
+    "Name": "Parcel"
+  },
+  {
     "AAGuid": "5d629218-d3a5-11ed-afa1-0242ac120002",
     "Name": "Swissbit iShield Key Pro"
   },
@@ -572,8 +596,16 @@
     "Name": "eWBM eFPA FIDO2 Authenticator"
   },
   {
+    "AAGuid": "6169eb16-f87a-42d8-978d-e1ac0c3f319f",
+    "Name": "GoTrust Idem Card"
+  },
+  {
     "AAGuid": "62e54e98-c209-4df3-b692-de71bb6a8528",
     "Name": "YubiKey 5 FIPS Series with NFC Preview"
+  },
+  {
+    "AAGuid": "65c97700-f5ef-4d5c-8a42-f30e45ac94b7",
+    "Name": "Royal Vault"
   },
   {
     "AAGuid": "662ef48a-95e2-4aaa-a6c1-5b9c40375824",
@@ -782,6 +814,10 @@
   {
     "AAGuid": "87dbc5a1-4c94-4dc8-8a47-97d800fd1f3c",
     "Name": "eWBM eFA320 FIDO2 Authenticator"
+  },
+  {
+    "AAGuid": "87f5ec51-f721-4feb-9fe4-be18c4971894",
+    "Name": "PassCard"
   },
   {
     "AAGuid": "882adaf5-3aa9-4708-8e7d-3957103775b4",
@@ -1072,6 +1108,10 @@
     "Name": "Chromium Browser"
   },
   {
+    "AAGuid": "b68c4b8d-65cb-42ae-b4f6-8606dfba3c22",
+    "Name": "IDEMIA SOLVO Fly 80 R3 FIDO Card for j"
+  },
+  {
     "AAGuid": "b6ede29c-3772-412c-8a78-539c1f4c62d2",
     "Name": "Feitian BioPass FIDO2 Plus Authenticator"
   },
@@ -1148,6 +1188,10 @@
     "Name": "iPasswords"
   },
   {
+    "AAGuid": "c09b3399-4a3d-306c-7bdc-967fef47241f",
+    "Name": "Giesecke+Devrient StarSign FIDO Card 2.1"
+  },
+  {
     "AAGuid": "c1288a5c-d66b-495c-a68f-4e81f9ec5b53",
     "Name": "Deepnet SafeKey/Classic (FP) XF"
   },
@@ -1214,6 +1258,10 @@
   {
     "AAGuid": "cb69481e-8ff7-4039-93ec-0a2729a154a8",
     "Name": "YubiKey 5 Series"
+  },
+  {
+    "AAGuid": "cb6f6666-38ea-4873-9161-ff456a82d316",
+    "Name": "iPass Secure Auth"
   },
   {
     "AAGuid": "cc45f64e-52a2-451b-831a-4edd8022a202",
