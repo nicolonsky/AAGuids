@@ -84,12 +84,20 @@
     "Name": "Security Key Series with NFC (Consumer Profile)"
   },
   {
+    "AAGuid": "0fbb74b5-f1ac-4f14-a0f1-ec39b5edfdae",
+    "Name": "Thales PAY GFCX19 authenticator"
+  },
+  {
     "AAGuid": "10c70715-2a9a-4de1-b0aa-3cff6d496d39",
     "Name": "eToken Fusion NFC FIPS"
   },
   {
     "AAGuid": "1105e4ed-af1d-02ff-ffff-ffffffffffff",
     "Name": "Egomet FIDO2 Authenticator for Android"
+  },
+  {
+    "AAGuid": "11544c3c-3693-40ba-9dbb-3b8d2b977988",
+    "Name": "Thales PAY GFCX20.1 authenticator"
   },
   {
     "AAGuid": "12755c32-8ad1-46eb-881c-e0b38d848b09",
@@ -318,6 +326,10 @@
   {
     "AAGuid": "3789da91-f943-46bc-95c3-50ea2012f03a",
     "Name": "NEOWAVE Winkeo FIDO2"
+  },
+  {
+    "AAGuid": "39502df1-646d-4e31-81a1-2ef68b324678",
+    "Name": "USB GoldKey Security Token"
   },
   {
     "AAGuid": "39589099-9a75-49fc-afaa-801ca211c62a",
@@ -808,6 +820,10 @@
     "Name": "RSA Authenticator 4 for iOS"
   },
   {
+    "AAGuid": "8791f7dc-418b-4510-bbf5-3baf30715324",
+    "Name": "Virtual FIDO2 authenticator for Linux-based systems"
+  },
+  {
     "AAGuid": "87c13177-85d6-40ac-8c61-fe7ab3de9dfb",
     "Name": "HID Crescendo Key V3"
   },
@@ -854,6 +870,10 @@
   {
     "AAGuid": "8c97a730-3f7b-41a6-87d6-1e9b62bda6f0",
     "Name": "FT-JCOS FIDO Fingerprint Card"
+  },
+  {
+    "AAGuid": "8caf7e7b-6c8b-46a9-b36b-5d04740d7463",
+    "Name": "cryptovision ePasslet Suite FIDO Authenticator"
   },
   {
     "AAGuid": "8d1b1fcb-3c76-49a9-9129-5515b346aa02",
@@ -990,6 +1010,10 @@
   {
     "AAGuid": "9f77e279-a6e2-4d58-b700-31e5943c6a98",
     "Name": "Hyper FIDO Pro"
+  },
+  {
+    "AAGuid": "9f8a3b2c-1d4e-4f6a-8b0c-2e1d3c4b5a69",
+    "Name": "U2 Secured"
   },
   {
     "AAGuid": "9ff4cc65-6154-4fff-ba09-9e2af7882ad2",
