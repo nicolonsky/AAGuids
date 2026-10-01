@@ -208,6 +208,10 @@
     "Name": "Enterprise Security Key Series with NFC (Consumer Profile)"
   },
   {
+    "AAGuid": "244eb29e-e090-4e49-81fe-1f20f8d3b8f4",
+    "Name": "CanoKey Canary"
+  },
+  {
     "AAGuid": "24673149-6c86-42e7-98d9-433fb5b73296",
     "Name": "YubiKey 5 Series with Lightning"
   },
@@ -318,6 +322,10 @@
   {
     "AAGuid": "357f2718-434f-4124-8a58-7e28c5e4a2fc",
     "Name": "Deepnet SafeKey/Classic (NFC)"
+  },
+  {
+    "AAGuid": "35d5ea15-ab24-4416-bdd1-f204c9bce1b6",
+    "Name": "CyberFOX Password Manager"
   },
   {
     "AAGuid": "361a3082-0278-4583-a16f-72a527f973e4",
@@ -648,6 +656,10 @@
     "Name": "Pone Biometrics OFFPAD Authenticator"
   },
   {
+    "AAGuid": "69840def-9dcf-4632-bf87-6ac2e451b4f5",
+    "Name": "Keyholm"
+  },
+  {
     "AAGuid": "6999180d-630c-442d-b8f7-424b90a43fae",
     "Name": "Hyper FIDO Pro (CTAP2.1, CTAP2.0, U2F)"
   },
@@ -694,6 +706,10 @@
   {
     "AAGuid": "6ec5cff2-a0f9-4169-945b-f33b563f7b99",
     "Name": "YubiKey Bio Series - Multi-protocol Edition (Enterprise Profile)"
+  },
+  {
+    "AAGuid": "6f706c75-7366-6964-6f2d-70732d303031",
+    "Name": "OPPO FIDO2 Authenticator"
   },
   {
     "AAGuid": "70617373-7761-6c6c-6669-646f32303236",
@@ -976,6 +992,10 @@
     "Name": "KeePassPasskey"
   },
   {
+    "AAGuid": "9c1f2b6e-4d3a-4f7c-8b21-5e6a7d8c9f01",
+    "Name": "Idira"
+  },
+  {
     "AAGuid": "9c835346-796b-4c27-8898-d6032f515cc5",
     "Name": "Cryptnox FIDO2"
   },
@@ -1104,6 +1124,10 @@
     "Name": "Deepnet SafeKey/Classic (NFC)"
   },
   {
+    "AAGuid": "b2647539-a130-4aee-8c34-9e4b52339123",
+    "Name": "ZTPass SmartAuth"
+  },
+  {
     "AAGuid": "b267239b-954f-4041-a01b-ee4f33c145b6",
     "Name": "authenton1 - CTAP2.1"
   },
@@ -1218,6 +1242,10 @@
   {
     "AAGuid": "c1288a5c-d66b-495c-a68f-4e81f9ec5b53",
     "Name": "Deepnet SafeKey/Classic (FP) XF"
+  },
+  {
+    "AAGuid": "c1bee13f-f347-4f53-9cd4-e8a2f98ee008",
+    "Name": "ZTPass SmartAuth FIPS"
   },
   {
     "AAGuid": "c1f9a0bc-1dd2-404a-b27f-8e29047a43fd",

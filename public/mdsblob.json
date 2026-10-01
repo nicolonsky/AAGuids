@@ -9994,6 +9994,38 @@
     ]
   },
   {
+    "aaguid": null,
+    "description": "SecuGen Unity 20 FIDO2 Biometric Security Key with USB connectivity and fingerprint, PIN, and user verification for FIDO2 and WebAuthn.",
+    "authenticatorVersion": 2,
+    "protocolFamily": "uaf",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 1
+      }
+    ],
+    "authenticationAlgorithms": [
+      "rsassa_pss_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "rsa_2048_der"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "software"
+    ],
+    "matcherProtection": [
+      "software"
+    ],
+    "cryptoStrength": null,
+    "attachmentHint": [
+      "wired"
+    ]
+  },
+  {
     "aaguid": "6999180d-630c-442d-b8f7-424b90a43fae",
     "description": "Hyper FIDO Pro (CTAP2.1, CTAP2.0, U2F)",
     "authenticatorVersion": 1,
@@ -10627,6 +10659,50 @@
     "cryptoStrength": 128,
     "attachmentHint": [
       "external"
+    ]
+  },
+  {
+    "aaguid": "244eb29e-e090-4e49-81fe-1f20f8d3b8f4",
+    "description": "CanoKey Canary",
+    "authenticatorVersion": 310,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 1
+      },
+      {
+        "major": 1,
+        "minor": 3
+      },
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw",
+      "ed25519_eddsa_sha512_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": null,
+    "attachmentHint": [
+      "external",
+      "wired",
+      "nfc"
     ]
   },
   {
@@ -13999,11 +14075,11 @@
     "upv": [
       {
         "major": 1,
-        "minor": 0
+        "minor": 1
       },
       {
         "major": 1,
-        "minor": 1
+        "minor": 0
       }
     ],
     "authenticationAlgorithms": [
@@ -18031,6 +18107,39 @@
       "software"
     ],
     "cryptoStrength": 256,
+    "attachmentHint": [
+      "internal"
+    ]
+  },
+  {
+    "aaguid": "6f706c75-7366-6964-6f2d-70732d303031",
+    "description": "OPPO FIDO2 Authenticator",
+    "authenticatorVersion": 214,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 1
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "tee"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 112,
     "attachmentHint": [
       "internal"
     ]
