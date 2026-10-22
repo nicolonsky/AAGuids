@@ -17938,6 +17938,31 @@
     ]
   },
   {
+    "aaguid": "531126d6-e717-415c-9320-3d9aa6981239",
+    "description": "Dashlane Password Manager",
+    "authenticatorVersion": 1,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "ecc_x962_raw"
+    ],
+    "attestationTypes": [
+      "none"
+    ],
+    "keyProtection": [
+      "software"
+    ],
+    "matcherProtection": [
+      "software"
+    ],
+    "cryptoStrength": null,
+    "attachmentHint": null
+  },
+  {
     "aaguid": null,
     "description": "Feitian BioPass FIDO Security Key",
     "authenticatorVersion": 1,
@@ -18358,6 +18383,40 @@
     "attachmentHint": [
       "external",
       "wireless",
+      "nfc"
+    ]
+  },
+  {
+    "aaguid": "e50e32f3-02ec-4afb-bdac-7205d12629df",
+    "description": "IDEMIA FIDO Card",
+    "authenticatorVersion": 16777216,
+    "protocolFamily": "fido2",
+    "schema": 3,
+    "upv": [
+      {
+        "major": 1,
+        "minor": 0
+      }
+    ],
+    "authenticationAlgorithms": [
+      "secp256r1_ecdsa_sha256_raw"
+    ],
+    "publicKeyAlgAndEncodings": [
+      "cose"
+    ],
+    "attestationTypes": [
+      "basic_full"
+    ],
+    "keyProtection": [
+      "hardware",
+      "secure_element"
+    ],
+    "matcherProtection": [
+      "on_chip"
+    ],
+    "cryptoStrength": 128,
+    "attachmentHint": [
+      "wired",
       "nfc"
     ]
   },

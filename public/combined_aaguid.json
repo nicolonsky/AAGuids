@@ -120,6 +120,10 @@
     "Name": "Security Key by Yubico with NFC"
   },
   {
+    "AAGuid": "16a5a15d-7244-4563-856d-a5167d8b9783",
+    "Name": "Pleasant Password Server"
+  },
+  {
     "AAGuid": "17290f1e-c212-34d0-1423-365d729f09d9",
     "Name": "Thales PIN iOS SDK"
   },
@@ -402,6 +406,10 @@
   {
     "AAGuid": "42df17de-06ba-4177-a2bb-6701be1380d6",
     "Name": "Feitian BioPass FIDO2 Plus Authenticator"
+  },
+  {
+    "AAGuid": "441f5bad-a8ec-4572-8094-ee73a1c7cec7",
+    "Name": "Fobb Security"
   },
   {
     "AAGuid": "454e5346-4944-4ffd-6c93-8e9267193e9a",
@@ -688,6 +696,10 @@
     "Name": "GoTrust Cyber Key"
   },
   {
+    "AAGuid": "6d6f6e69-6361-4d33-a001-706173736b79",
+    "Name": "Monica Pass"
+  },
+  {
     "AAGuid": "6dae43be-af9c-417b-8b9f-1b611168ec60",
     "Name": "Dapple Authenticator from Dapple Security Inc."
   },
@@ -786,6 +798,14 @@
   {
     "AAGuid": "7b96457d-e3cd-432b-9ceb-c9fdd7ef7432",
     "Name": "YubiKey 5 FIPS Series with Lightning"
+  },
+  {
+    "AAGuid": "7c30bcef-f035-4e21-9175-5c985b4b239c",
+    "Name": "TeamPass"
+  },
+  {
+    "AAGuid": "7c596f1a-3e42-4b8d-9a0f-5d2ce1b84493",
+    "Name": "Cyclop Passkey"
   },
   {
     "AAGuid": "7d1351a6-e097-4852-b8bf-c9ac5c9ce4a3",
@@ -934,6 +954,10 @@
   {
     "AAGuid": "931327dd-c89b-406c-a81e-ed7058ef36c6",
     "Name": "Swissbit iShield Key FIDO2"
+  },
+  {
+    "AAGuid": "93fea28e-9b08-41d0-b663-20c36b008e70",
+    "Name": "Share Credentials"
   },
   {
     "AAGuid": "95442b2e-f15e-4def-b270-efb106facb4e",
@@ -1264,6 +1288,10 @@
     "Name": "HID Crescendo Fusion"
   },
   {
+    "AAGuid": "c4ed941c-86d3-4532-a6a9-bc42b80d5c38",
+    "Name": "Authn8"
+  },
+  {
     "AAGuid": "c5703116-972b-4851-a3e7-ae1259843399",
     "Name": "NEOWAVE Badgeo FIDO2"
   },
@@ -1456,6 +1484,10 @@
     "Name": "Deepnet SafeKey/Classic (FP)"
   },
   {
+    "AAGuid": "e50e32f3-02ec-4afb-bdac-7205d12629df",
+    "Name": "IDEMIA FIDO Card"
+  },
+  {
     "AAGuid": "e77e3c64-05e3-428b-8824-0cbeb04b829d",
     "Name": "Security Key NFC by Yubico"
   },
@@ -1514,6 +1546,10 @@
   {
     "AAGuid": "efb96b10-a9ee-4b6c-a4a9-d32125ccd4a4",
     "Name": "Safenet eToken FIDO"
+  },
+  {
+    "AAGuid": "f1d0badc-0def-4f1d-8bad-c0def1d0badc",
+    "Name": "fidont"
   },
   {
     "AAGuid": "f2145e86-211e-4931-b874-e22bba7d01cc",
